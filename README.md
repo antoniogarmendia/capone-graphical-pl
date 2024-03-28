@@ -26,6 +26,6 @@ The project that contains the modules of the product line is in [capone-examples
 
 ### Factories
 
-The project that contains the modules of the product line is in capone-examples/factories.pl.visualization. The folder generated-graphical-environments/Factories contains the example of the product0.
+The project that contains the modules of the product line is in [capone-examples/factories.pl.visualization](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/capone-examples/factories.pl.visualization). The folder [generated-graphical-environments/Factories](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/generated-graphical-environments/Factories) contains the generated project of the graphical editor of product0.  A model example of produc43 can be found in [product0](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/example-of-models/Factories/factories.pl.models/product00000.factoriespl).
 
 <img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/factories-product0.png?raw=true" width="600" height="300" alt= "Example of a Factory Configuration" />
