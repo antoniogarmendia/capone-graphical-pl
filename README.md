@@ -14,7 +14,7 @@ graphical editor of product5. A model example of produc5 can be found in [produc
 
 ### Statecharts
 
-The project that contains the modules of the product line is in capone-examples/StateMachines.pl.visualization. The folder generated-graphical-environments/StateCharts contains the example of the product43.
+The project that contains the modules of the product line is in [capone-examples/StateMachines.pl.visualization](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/capone-examples/StateMachines.pl.visualization). The folder [generated-graphical-environments/StateCharts](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/generated-graphical-environments/StateCharts) contains the generated project of the graphical editor of product43. A model example of produc43 can be found in [product43](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/example-of-models/StateCharts/statemachines.pl.models/product00043.statemachinepl)
 
 <img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/statecharts-product43.png?raw=true" width="600" height="300" alt= "Example of a StateChart Configuration" />
 
