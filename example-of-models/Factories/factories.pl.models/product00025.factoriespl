@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factories:Factory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:factories="http://factories/product00025">
+  <elements xsi:type="factories:Conveyor"/>
+  <elements xsi:type="factories:Machine">
+    <inps to="//@elements.0"/>
+    <inps to="//@elements.4"/>
+    <outps to="//@elements.2"/>
+    <outps to="//@elements.3"/>
+  </elements>
+  <elements xsi:type="factories:Conveyor"/>
+  <elements xsi:type="factories:Conveyor"/>
+  <elements xsi:type="factories:Conveyor"/>
+</factories:Factory>

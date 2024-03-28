@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factories:Factory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:factories="http://factories/product00026">
+  <elements xsi:type="factories:Conveyor"/>
+  <elements xsi:type="factories:Machine">
+    <parts name="newPart1"/>
+    <parts name="newPart2"/>
+    <parts name="newPart3"/>
+    <inps lossProb="12.0" to="//@elements.0"/>
+  </elements>
+  <elements xsi:type="factories:Machine">
+    <parts name="P1"/>
+    <parts name="P2"/>
+    <parts name="newPart3"/>
+    <parts name="newPart4"/>
+    <outps lossProb="12.0" to="//@elements.0"/>
+  </elements>
+  <elements xsi:type="factories:Machine"/>
+  <elements xsi:type="factories:Conveyor"/>
+  <elements xsi:type="factories:Machine"/>
+  <elements xsi:type="factories:Conveyor">
+    <parts name="newPart1"/>
+    <parts name="newPart2"/>
+  </elements>
+  <elements xsi:type="factories:Machine">
+    <parts name="newPart1"/>
+    <parts name="newPart2"/>
+    <inps to="//@elements.4"/>
+    <outps to="//@elements.6"/>
+  </elements>
+</factories:Factory>

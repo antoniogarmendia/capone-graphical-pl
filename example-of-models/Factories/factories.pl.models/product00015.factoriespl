@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factories:Factory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:factories="http://factories/product00015">
+  <elements xsi:type="factories:Machine" name="ws1" delay="12.0" outs="//@elements.1">
+    <parts name="p1"/>
+  </elements>
+  <elements xsi:type="factories:Conveyor" delay="12.0">
+    <parts name="P2"/>
+    <parts name="P3" timeStamp="12.0"/>
+  </elements>
+</factories:Factory>
