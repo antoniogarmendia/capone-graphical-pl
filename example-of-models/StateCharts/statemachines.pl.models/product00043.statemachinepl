@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statemachines:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statemachines="http://statemachines/product00043" currentTime="3">
+  <states isInitial="true" event="Initial"/>
+  <states event="Test"/>
+  <states event="Coding"/>
+  <states xsi:type="statemachines:CompositeState">
+    <regions>
+      <states event="Review"/>
+      <states event="Fix"/>
+    </regions>
+    <regions/>
+  </states>
+  <states isFinal="true"/>
+  <transitions from="//@states.0" to="//@states.1" time="2"/>
+  <transitions from="//@states.1" to="//@states.2" time="4" isImmediate="true"/>
+  <transitions from="//@states.2" to="//@states.3" time="5"/>
+  <transitions from="//@states.3" to="//@states.4" time="3"/>
+  <transitions from="//@states.3/@regions.0/@states.0" to="//@states.3/@regions.0/@states.1"/>
+</statemachines:StateMachine>

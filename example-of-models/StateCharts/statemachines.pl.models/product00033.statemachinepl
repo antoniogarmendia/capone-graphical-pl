@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statemachines:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statemachines="http://statemachines/product00033">
+  <states isInitial="true"/>
+  <states isFinal="true"/>
+  <states/>
+  <states xsi:type="statemachines:CompositeState">
+    <regions>
+      <states isInitial="true"/>
+      <states/>
+      <states isFinal="true"/>
+    </regions>
+    <regions/>
+  </states>
+  <transitions from="//@states.0" to="//@states.2"/>
+  <transitions from="//@states.3" to="//@states.1"/>
+  <transitions from="//@states.2" to="//@states.3"/>
+  <transitions from="//@states.3/@regions.0/@states.0" to="//@states.3/@regions.0/@states.1"/>
+  <transitions from="//@states.3/@regions.0/@states.1" to="//@states.3/@regions.0/@states.2"/>
+  <transitions from="//@states.3"/>
+</statemachines:StateMachine>

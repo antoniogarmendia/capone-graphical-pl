@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statemachines:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statemachines="http://statemachines/product00044">
+  <states isInitial="true"/>
+  <states event="Text to Search"/>
+  <states xsi:type="statemachines:CompositeState" event="ExecuteSearch"/>
+  <transitions from="//@states.0" to="//@states.1"/>
+  <transitions from="//@states.1" to="//@states.2" event="text"/>
+</statemachines:StateMachine>

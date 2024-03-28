@@ -13,7 +13,9 @@ The project that contains the modules of the product line is in capone-examples/
 
 ### Statecharts
 
-The project that contains the modules of the product line is in capone-examples/StateMachines.pl.visualization. 
+The project that contains the modules of the product line is in capone-examples/StateMachines.pl.visualization. The folder generated-graphical-environments/StateCharts contains the example of the product43.
+
+![Example of a StateChart Configuration](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/statecharts-product43.png?raw=true)
 
 ### Petri nets
 

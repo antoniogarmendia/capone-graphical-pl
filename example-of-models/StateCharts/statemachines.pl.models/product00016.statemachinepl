@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statemachines:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statemachines="http://statemachines/product00016">
+  <states isInitial="true"/>
+  <states/>
+  <states xsi:type="statemachines:CompositeState"/>
+  <transitions from="//@states.0" to="//@states.1" trigger="guard=0"/>
+</statemachines:StateMachine>
