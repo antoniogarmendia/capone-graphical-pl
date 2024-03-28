@@ -27,5 +27,4 @@ The project that contains the modules of the product line is in capone-examples/
 
 The project that contains the modules of the product line is in capone-examples/factories.pl.visualization. The folder generated-graphical-environments/Factories contains the example of the product0.
 
-![Example of a Factory Configuration](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/factories-product0.png?raw=true)
-
+<img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/factories-product0.png?raw=true" width="1024" height="436" alt= "Example of a Factory Configuration" />
