@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="Networking" version="12.0.0.2017041100">
+  <ownedViewpoints name="NetWorkingViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="NetworkingDiagram" domainClass="NetworkingPL::Network" enablePopupBars="true">
+      <metamodel href="../../product00005.mm/model/Networking.ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="EdgeMessageFrom" sourceMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']" targetMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']" targetFinderExpression="aql:if (self.from &lt;> self.at) then self.from else null endif">
+          <style sourceArrow="InputArrow" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="from">
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="EdgeMessageTo" sourceMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']" targetMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']" targetFinderExpression="aql:self.to">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="to">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RichLink" semanticCandidatesExpression="feature:links" sourceMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']" targetMapping="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']" targetFinderExpression="aql:self.to" sourceFinderExpression="aql:self.from" domainClass="NetworkingPL::Link" useDomainElement="true">
+          <style lineStyle="dash_dot" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:'Speed: '.concat(self.speed.toString())">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="NodeContainer" semanticCandidatesExpression="feature:nodes" domainClass="NetworkingPL::Node">
+          <subNodeMappings name="Message" semanticCandidatesExpression="aql:diagram.target.messages->select(m | m.at = self)" domainClass="NetworkingPL::Message">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:'Message: '.concat(self.eContainer().messages->indexOf(self).toString()).concat('TimeStamp: '.concat(self.timeStamp.toString()))" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:'NetworkNode: '.concat(self.eContainer().nodes->indexOf(self).toString())" iconPath="/networking.visualization/icons/node_network_icon.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="NetworkSection" label="Network Section">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Node Creation" containerMappings="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="NetworkingPL::Node" referenceName="nodes" variableName="node"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="MessageCreation" label="Message Creation" nodeMappings="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="NetworkingPL::Message" referenceName="messages">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="at" valueExpression="var:container"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="from" valueExpression="var:container"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateEdgeMessageFrom" edgeMappings="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="from" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateEdgeMessageTo" edgeMappings="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="LinkedToCreation" edgeMappings="//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="NetworkingPL::Link" referenceName="links">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="from" valueExpression="var:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="product00005.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

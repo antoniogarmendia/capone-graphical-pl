@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/product00005.mm/src-gen" creationIcons="false" editDirectory="/product00005.mm.edit/src-gen" editorDirectory="/product00005.mm.editor/src-gen" modelPluginID="product00005.mm" modelName="Networking" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>Networking.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="NetworkingPL" basePackage="product00005.mm" disposableProviderFactory="true">
+    <ecorePackage href="Networking.ecore#/"/>
+    <genClasses>
+      <ecoreClass href="Networking.ecore#//Network"/>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Network/nodes"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Network/messages"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Network/links"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="Networking.ecore#//Node"/>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="Networking.ecore#//Message"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Message/from"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Message/to"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Message/at"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="Networking.ecore#//Message/size"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="Networking.ecore#//Message/timeStamp"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="Networking.ecore#//Link"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Link/from"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="Networking.ecore#//Link/to"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="Networking.ecore#//Link/speed"/>
+      </genFeatures>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

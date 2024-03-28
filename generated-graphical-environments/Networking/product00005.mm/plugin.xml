@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Networking -->
+      <package
+            uri="http://networking/product00005"
+            class="product00005.mm.NetworkingPL.NetworkingPLPackage"
+            genModel="model/Networking.genModel"/>
+   </extension>
+
+</plugin>

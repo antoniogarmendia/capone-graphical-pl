@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:networking="http://networking/product00005" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:product00000="http://networking/product00000" xmlns:product00001="http://networking/product00001" xmlns:product00002="http://networking/product00002" xmlns:product00004="http://networking/product00004" xmlns:product00031="http://networking/product00031" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_TchW4OfGEe68tpObXxEYOA" selectedViews="_3V-KMOg5Ee6wto35hkmvUA" version="15.2.0.202303281325">
+    <semanticResources>product00001.networkingpl</semanticResources>
+    <semanticResources>product00002.networkingpl</semanticResources>
+    <semanticResources>product00005.networkingpl</semanticResources>
+    <semanticResources>product00000.networkingpl</semanticResources>
+    <semanticResources>My.networkingpl</semanticResources>
+    <semanticResources>product00031.networkingpl</semanticResources>
+    <semanticResources>product00004.networkingpl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_CwhowOfIEe6VDNTSNKqd1Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DrCJMOfIEe6VDNTSNKqd1Q" name="new NetworkingDiagram" repPath="#_DqyRkOfIEe6VDNTSNKqd1Q" changeId="1711056546503">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00001:Network" href="product00001.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_dLqg0Og2Ee6wo4zwUTxZWA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_d6n4kOg2Ee6wo4zwUTxZWA" name="new NetworkingDiagram" repPath="#_d6c5cOg2Ee6wo4zwUTxZWA" changeId="1711374487463">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00002:Network" href="product00002.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3V-KMOg5Ee6wto35hkmvUA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3fjukOg6Ee6kypeIr6nM9Q" name="new NetworkingDiagram" repPath="#_3fVFEOg6Ee6kypeIr6nM9Q" changeId="1711624957731">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="networking:Network" href="product00005.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_sQtvYOhtEe6Rg4F8qZ8xUw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tDhsYOhtEe6Rg4F8qZ8xUw" name="new NetworkingDiagram" repPath="#_tDWGMOhtEe6Rg4F8qZ8xUw" changeId="1711126869387">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00000:Network" href="My.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_5COTAOhtEe6Rg4F8qZ8xUw" name="new NetworkingDiagram" repPath="#_5CNr8OhtEe6Rg4F8qZ8xUw" changeId="1711358959322">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00000:Network" href="product00000.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_JhGOUOhwEe6lIYk71VlHcA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cUvvAOh6Ee6xAtwa7Z1hRg" name="new NetworkingDiagram" repPath="#_cUug4Oh6Ee6xAtwa7Z1hRg" changeId="1711358473883">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00031:Network" href="product00031.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Cj9IwOqvEe6fWJeKnCNYAQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DYBqAOqvEe6fWJeKnCNYAQ" name="new NetworkingDiagram" repPath="#_DX5uMOqvEe6fWJeKnCNYAQ" changeId="1711374848957">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+        <target xmi:type="product00004:Network" href="product00004.networkingpl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_DqyRkOfIEe6VDNTSNKqd1Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DrWSQOfIEe6VDNTSNKqd1Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_DrWSQefIEe6VDNTSNKqd1Q" type="Sirius" element="_DqyRkOfIEe6VDNTSNKqd1Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_DsIVYOfIEe6VDNTSNKqd1Q" type="2002" element="_Drc_8OfIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsN08OfIEe6VDNTSNKqd1Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DsPDEOfIEe6VDNTSNKqd1Q" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_DsVwwOfIEe6VDNTSNKqd1Q" type="3007" element="_DruFsOfIEe6VDNTSNKqd1Q">
+              <children xmi:type="notation:Node" xmi:id="_DsWX0OfIEe6VDNTSNKqd1Q" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DsWX0efIEe6VDNTSNKqd1Q" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_DsXl8OfIEe6VDNTSNKqd1Q" type="3003" element="_DrvT0OfIEe6VDNTSNKqd1Q">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_DsXl8efIEe6VDNTSNKqd1Q" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsXl8ufIEe6VDNTSNKqd1Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DsVwwefIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsVwwufIEe6VDNTSNKqd1Q" x="31" y="30" width="121" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsPDEefIEe6VDNTSNKqd1Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsPDEufIEe6VDNTSNKqd1Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsIVYefIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsIVYufIEe6VDNTSNKqd1Q" x="570" y="222"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DsT7kOfIEe6VDNTSNKqd1Q" type="2002" element="_DrpNMOfIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsT7k-fIEe6VDNTSNKqd1Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DsUioOfIEe6VDNTSNKqd1Q" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_DsYNAOfIEe6VDNTSNKqd1Q" type="3007" element="_Drv64efIEe6VDNTSNKqd1Q">
+              <children xmi:type="notation:Node" xmi:id="_DsYNA-fIEe6VDNTSNKqd1Q" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DsYNBOfIEe6VDNTSNKqd1Q" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_DsYNBefIEe6VDNTSNKqd1Q" type="3003" element="_Drv64ufIEe6VDNTSNKqd1Q">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_DsYNBufIEe6VDNTSNKqd1Q" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsYNB-fIEe6VDNTSNKqd1Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DsYNAefIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsYNAufIEe6VDNTSNKqd1Q" x="1" y="30" width="127" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsUioefIEe6VDNTSNKqd1Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsUioufIEe6VDNTSNKqd1Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsT7kefIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsT7kufIEe6VDNTSNKqd1Q" x="534" y="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DsUio-fIEe6VDNTSNKqd1Q" type="2002" element="_DrpNM-fIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsUipufIEe6VDNTSNKqd1Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DsUip-fIEe6VDNTSNKqd1Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsUiqOfIEe6VDNTSNKqd1Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsUiqefIEe6VDNTSNKqd1Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsUipOfIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsUipefIEe6VDNTSNKqd1Q" x="336" y="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DsUiqufIEe6VDNTSNKqd1Q" type="2002" element="_Drp0QufIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsUirefIEe6VDNTSNKqd1Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DsVJsOfIEe6VDNTSNKqd1Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsVJsefIEe6VDNTSNKqd1Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsVJsufIEe6VDNTSNKqd1Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsUiq-fIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsUirOfIEe6VDNTSNKqd1Q" x="210" y="270"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_DrWSQufIEe6VDNTSNKqd1Q"/>
+        <edges xmi:type="notation:Edge" xmi:id="_DsjzMOfIEe6VDNTSNKqd1Q" type="4001" element="_Dr2BgOfIEe6VDNTSNKqd1Q" source="_DsVwwOfIEe6VDNTSNKqd1Q" target="_DsUio-fIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsloYOfIEe6VDNTSNKqd1Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsloYefIEe6VDNTSNKqd1Q" x="6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DsmPcOfIEe6VDNTSNKqd1Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsmPcefIEe6VDNTSNKqd1Q" x="-4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Dsm2gOfIEe6VDNTSNKqd1Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsm2gefIEe6VDNTSNKqd1Q" x="-5" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_DsjzMefIEe6VDNTSNKqd1Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DsjzMufIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DsjzM-fIEe6VDNTSNKqd1Q" points="[-15, -15, 196, 184]$[-175, -165, 36, 34]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DsxOkOfIEe6VDNTSNKqd1Q" id="(0.12396694214876033,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DsxOkefIEe6VDNTSNKqd1Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Dsx1oOfIEe6VDNTSNKqd1Q" type="4001" element="_Dr4dwufIEe6VDNTSNKqd1Q" source="_DsVwwOfIEe6VDNTSNKqd1Q" target="_DsT7kOfIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_Dsx1pOfIEe6VDNTSNKqd1Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsx1pefIEe6VDNTSNKqd1Q" x="10" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Dsx1pufIEe6VDNTSNKqd1Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsx1p-fIEe6VDNTSNKqd1Q" x="-7" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Dsx1qOfIEe6VDNTSNKqd1Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsx1qefIEe6VDNTSNKqd1Q" x="-8" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Dsx1oefIEe6VDNTSNKqd1Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Dsx1oufIEe6VDNTSNKqd1Q" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dsx1o-fIEe6VDNTSNKqd1Q" points="[-1, -15, 12, 186]$[-11, -165, 2, 36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DsycsOfIEe6VDNTSNKqd1Q" id="(0.12396694214876033,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DsycsefIEe6VDNTSNKqd1Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_DsycsufIEe6VDNTSNKqd1Q" type="4001" element="_Dr5E0ufIEe6VDNTSNKqd1Q" source="_DsUiqufIEe6VDNTSNKqd1Q" target="_DsT7kOfIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_DsyctufIEe6VDNTSNKqd1Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsyct-fIEe6VDNTSNKqd1Q" x="-15" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DsycuOfIEe6VDNTSNKqd1Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsycuefIEe6VDNTSNKqd1Q" x="18" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DsycuufIEe6VDNTSNKqd1Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dsycu-fIEe6VDNTSNKqd1Q" x="14" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Dsycs-fIEe6VDNTSNKqd1Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DsyctOfIEe6VDNTSNKqd1Q" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DsyctefIEe6VDNTSNKqd1Q" points="[0, 0, -324, 162]$[324, -162, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DszDwOfIEe6VDNTSNKqd1Q" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DszDwefIEe6VDNTSNKqd1Q" id="(0.5067567567567568,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vF6C0OfIEe6fhdbbqfH2gg" type="4001" element="_vFqyROfIEe6fhdbbqfH2gg" source="_DsUiqufIEe6VDNTSNKqd1Q" target="_DsUio-fIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="_vGDz0OfIEe6fhdbbqfH2gg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGDz0efIEe6fhdbbqfH2gg" x="-14" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vGFB8OfIEe6fhdbbqfH2gg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGFB8efIEe6fhdbbqfH2gg" x="12" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vGFB8ufIEe6fhdbbqfH2gg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGFB8-fIEe6fhdbbqfH2gg" x="11" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vF6C0efIEe6fhdbbqfH2gg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vF6C0ufIEe6fhdbbqfH2gg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vF6C0-fIEe6fhdbbqfH2gg" points="[0, 0, -210, 162]$[210, -162, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vGJ6cOfIEe6fhdbbqfH2gg" id="(0.20270270270270271,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vGKhgOfIEe6fhdbbqfH2gg" id="(0.7702702702702703,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__EtzcOfJEe6t28PgkQ8zrA" type="4001" element="__ElQmOfJEe6t28PgkQ8zrA" source="_DsUiqufIEe6VDNTSNKqd1Q" target="_DsIVYOfIEe6VDNTSNKqd1Q">
+          <children xmi:type="notation:Node" xmi:id="__Ew2wOfJEe6t28PgkQ8zrA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Ew2wefJEe6t28PgkQ8zrA" x="-13" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__Exd0OfJEe6t28PgkQ8zrA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Exd0efJEe6t28PgkQ8zrA" x="12" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__Exd0ufJEe6t28PgkQ8zrA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Exd0-fJEe6t28PgkQ8zrA" x="15" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__EuagOfJEe6t28PgkQ8zrA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__EuagefJEe6t28PgkQ8zrA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__EuagufJEe6t28PgkQ8zrA" points="[148, -10, -326, 20]$[474, -30, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__EzTAOfJEe6t28PgkQ8zrA" id="(0.0,0.7941176470588235)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__EzTAefJEe6t28PgkQ8zrA" id="(0.7702702702702703,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Dr5r5OfIEe6VDNTSNKqd1Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Dr6S8OfIEe6VDNTSNKqd1Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Drc_8OfIEe6VDNTSNKqd1Q" name="NetworkNode: 1" incomingEdges="__ElQmOfJEe6t28PgkQ8zrA">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Drmw8OfIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_DruFsOfIEe6VDNTSNKqd1Q" name="Message: 1" outgoingEdges="_Dr2BgOfIEe6VDNTSNKqd1Q _Dr4dwufIEe6VDNTSNKqd1Q" width="3" height="3" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:Square" uid="_DrvT0OfIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.0"/>
+        <semanticElements xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.0"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DrpNMOfIEe6VDNTSNKqd1Q" name="NetworkNode: 2" incomingEdges="_Dr4dwufIEe6VDNTSNKqd1Q _Dr5E0ufIEe6VDNTSNKqd1Q">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DrpNMefIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_Drv64efIEe6VDNTSNKqd1Q" name="Message: 2" width="3" height="3" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:Square" uid="_Drv64ufIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.1"/>
+        <semanticElements xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.1"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DrpNM-fIEe6VDNTSNKqd1Q" name="NetworkNode: 3" incomingEdges="_Dr2BgOfIEe6VDNTSNKqd1Q _vFqyROfIEe6fhdbbqfH2gg">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Drp0QOfIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <target xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.2"/>
+      <semanticElements xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.2"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Drp0QufIEe6VDNTSNKqd1Q" name="NetworkNode: 4" outgoingEdges="_Dr5E0ufIEe6VDNTSNKqd1Q _vFqyROfIEe6fhdbbqfH2gg __ElQmOfJEe6t28PgkQ8zrA">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Drp0Q-fIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <target xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.3"/>
+      <semanticElements xmi:type="product00001:Node" href="product00001.networkingpl#//@nodes.3"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Dr2BgOfIEe6VDNTSNKqd1Q" name="from" sourceNode="_DruFsOfIEe6VDNTSNKqd1Q" targetNode="_DrpNM-fIEe6VDNTSNKqd1Q">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Dr3PoOfIEe6VDNTSNKqd1Q" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Dr32sOfIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']"/>
+      <target xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Dr4dwufIEe6VDNTSNKqd1Q" name="to" sourceNode="_DruFsOfIEe6VDNTSNKqd1Q" targetNode="_DrpNMOfIEe6VDNTSNKqd1Q">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Dr4dw-fIEe6VDNTSNKqd1Q" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Dr4dxOfIEe6VDNTSNKqd1Q" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+      <target xmi:type="product00001:Message" href="product00001.networkingpl#//@messages.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Dr5E0ufIEe6VDNTSNKqd1Q" sourceNode="_Drp0QufIEe6VDNTSNKqd1Q" targetNode="_DrpNMOfIEe6VDNTSNKqd1Q">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Dr5r4OfIEe6VDNTSNKqd1Q" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Dr5r4efIEe6VDNTSNKqd1Q" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+      <target xmi:type="product00001:Link" href="product00001.networkingpl#//@links.0"/>
+      <semanticElements xmi:type="product00001:Link" href="product00001.networkingpl#//@links.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vFqyROfIEe6fhdbbqfH2gg" sourceNode="_Drp0QufIEe6VDNTSNKqd1Q" targetNode="_DrpNM-fIEe6VDNTSNKqd1Q">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vFrZUOfIEe6fhdbbqfH2gg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vFrZUefIEe6fhdbbqfH2gg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+      <target xmi:type="product00001:Link" href="product00001.networkingpl#//@links.1"/>
+      <semanticElements xmi:type="product00001:Link" href="product00001.networkingpl#//@links.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__ElQmOfJEe6t28PgkQ8zrA" sourceNode="_Drp0QufIEe6VDNTSNKqd1Q" targetNode="_Drc_8OfIEe6VDNTSNKqd1Q">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__El3oOfJEe6t28PgkQ8zrA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__El3oefJEe6t28PgkQ8zrA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+      <target xmi:type="product00001:Link" href="product00001.networkingpl#//@links.2"/>
+      <semanticElements xmi:type="product00001:Link" href="product00001.networkingpl#//@links.2"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Dq60cOfIEe6VDNTSNKqd1Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00001.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00001:Network" href="product00001.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_d6c5cOg2Ee6wo4zwUTxZWA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_d6tYIOg2Ee6wo4zwUTxZWA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_d6tYIeg2Ee6wo4zwUTxZWA" type="Sirius" element="_d6c5cOg2Ee6wo4zwUTxZWA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ekEeMOg2Ee6wo4zwUTxZWA" type="2002" element="_ej5fEOg2Ee6wo4zwUTxZWA">
+          <children xmi:type="notation:Node" xmi:id="_ekGTYOg2Ee6wo4zwUTxZWA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_ekGTYeg2Ee6wo4zwUTxZWA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_e7sUAOg2Ee6wo4zwUTxZWA" type="3007" element="_e7mNYOg2Ee6wo4zwUTxZWA">
+              <children xmi:type="notation:Node" xmi:id="_e7s7EOg2Ee6wo4zwUTxZWA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_e7s7Eeg2Ee6wo4zwUTxZWA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_e7tiIOg2Ee6wo4zwUTxZWA" type="3003" element="_e7nbgOg2Ee6wo4zwUTxZWA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_e7tiIeg2Ee6wo4zwUTxZWA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7tiIug2Ee6wo4zwUTxZWA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_e7sUAeg2Ee6wo4zwUTxZWA" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7sUAug2Ee6wo4zwUTxZWA" x="43" y="78" width="193" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ekGTYug2Ee6wo4zwUTxZWA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ekGTY-g2Ee6wo4zwUTxZWA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ekEeMeg2Ee6wo4zwUTxZWA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ekEeMug2Ee6wo4zwUTxZWA" x="60" y="60" width="279" height="195"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__4q18Og3Ee64L4Ngy6gvKA" type="2002" element="__4kIQOg3Ee64L4Ngy6gvKA">
+          <children xmi:type="notation:Node" xmi:id="__4tSMOg3Ee64L4Ngy6gvKA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="__4t5QOg3Ee64L4Ngy6gvKA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_AlL9sOg4Ee64L4Ngy6gvKA" type="3007" element="_AlHFMOg4Ee64L4Ngy6gvKA">
+              <children xmi:type="notation:Node" xmi:id="_AlL9s-g4Ee64L4Ngy6gvKA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_AlL9tOg4Ee64L4Ngy6gvKA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_AlMkwOg4Ee64L4Ngy6gvKA" type="3003" element="_AlHsQOg4Ee64L4Ngy6gvKA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_AlMkweg4Ee64L4Ngy6gvKA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AlMkwug4Ee64L4Ngy6gvKA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AlL9seg4Ee64L4Ngy6gvKA" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AlL9sug4Ee64L4Ngy6gvKA" x="43" y="66" width="115" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="__4t5Qeg3Ee64L4Ngy6gvKA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="__4t5Qug3Ee64L4Ngy6gvKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__4q18eg3Ee64L4Ngy6gvKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4q18ug3Ee64L4Ngy6gvKA" x="492" y="114" width="201" height="141"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_d6tYIug2Ee6wo4zwUTxZWA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_CMBYoOg4Ee64L4Ngy6gvKA" type="4001" element="_CL7SAOg4Ee64L4Ngy6gvKA" source="_ekEeMOg2Ee6wo4zwUTxZWA" target="__4q18Og3Ee64L4Ngy6gvKA">
+          <children xmi:type="notation:Node" xmi:id="_CMB_sOg4Ee64L4Ngy6gvKA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMB_seg4Ee64L4Ngy6gvKA" x="26" y="-31"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CMEb8Og4Ee64L4Ngy6gvKA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMEb8eg4Ee64L4Ngy6gvKA" x="-1" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CMEb8ug4Ee64L4Ngy6gvKA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMEb8-g4Ee64L4Ngy6gvKA" x="1" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CMBYoeg4Ee64L4Ngy6gvKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CMBYoug4Ee64L4Ngy6gvKA" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CMBYo-g4Ee64L4Ngy6gvKA" points="[10, 4, -155, 0]$[165, 4, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CMGRIOg4Ee64L4Ngy6gvKA" id="(0.9638989169675091,0.538860103626943)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CMGRIeg4Ee64L4Ngy6gvKA" id="(0.0,0.38848920863309355)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_d617AOg2Ee6wo4zwUTxZWA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_d617Aeg2Ee6wo4zwUTxZWA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ej5fEOg2Ee6wo4zwUTxZWA" name="NetworkNode: 1" outgoingEdges="_CL7SAOg4Ee64L4Ngy6gvKA">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ej9JcOg2Ee6wo4zwUTxZWA" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_e7mNYOg2Ee6wo4zwUTxZWA" name="Message: 1" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_e7nbgOg2Ee6wo4zwUTxZWA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00002:Message" href="product00002.networkingpl#//@messages.0"/>
+        <semanticElements xmi:type="product00002:Message" href="product00002.networkingpl#//@messages.0"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00002:Node" href="product00002.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00002:Node" href="product00002.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="__4kIQOg3Ee64L4Ngy6gvKA" name="NetworkNode: 2" incomingEdges="_CL7SAOg4Ee64L4Ngy6gvKA">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__4kvUOg3Ee64L4Ngy6gvKA" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_AlHFMOg4Ee64L4Ngy6gvKA" name="Message: 2" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_AlHsQOg4Ee64L4Ngy6gvKA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00002:Message" href="product00002.networkingpl#//@messages.1"/>
+        <semanticElements xmi:type="product00002:Message" href="product00002.networkingpl#//@messages.1"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00002:Node" href="product00002.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00002:Node" href="product00002.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CL7SAOg4Ee64L4Ngy6gvKA" name="Prob: 0.0" sourceNode="_ej5fEOg2Ee6wo4zwUTxZWA" targetNode="__4kIQOg3Ee64L4Ngy6gvKA">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CL75EOg4Ee64L4Ngy6gvKA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CL75Eeg4Ee64L4Ngy6gvKA" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+      <target xmi:type="product00002:Link" href="product00002.networkingpl#//@links.0"/>
+      <semanticElements xmi:type="product00002:Link" href="product00002.networkingpl#//@links.0"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_d6jAEOg2Ee6wo4zwUTxZWA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00002.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00002:Network" href="product00002.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3fVFEOg6Ee6kypeIr6nM9Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3fxxAOg6Ee6kypeIr6nM9Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3fxxAeg6Ee6kypeIr6nM9Q" type="Sirius" element="_3fVFEOg6Ee6kypeIr6nM9Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_4HQnwOg6Ee6kypeIr6nM9Q" type="2002" element="_4HG2wOg6Ee6kypeIr6nM9Q">
+          <children xmi:type="notation:Node" xmi:id="_4HR14Og6Ee6kypeIr6nM9Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_4HR14eg6Ee6kypeIr6nM9Q" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_4ejtcOg6Ee6kypeIr6nM9Q" type="3007" element="_4ee08Og6Ee6kypeIr6nM9Q">
+              <children xmi:type="notation:Node" xmi:id="_4ekUgOg6Ee6kypeIr6nM9Q" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_4ekUgeg6Ee6kypeIr6nM9Q" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4ek7kOg6Ee6kypeIr6nM9Q" type="3003" element="_4efcAOg6Ee6kypeIr6nM9Q">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4ek7keg6Ee6kypeIr6nM9Q" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ek7kug6Ee6kypeIr6nM9Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_4ejtceg6Ee6kypeIr6nM9Q" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ejtcug6Ee6kypeIr6nM9Q" x="7" y="36" width="241" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_4HR14ug6Ee6kypeIr6nM9Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_4HR14-g6Ee6kypeIr6nM9Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4HQnweg6Ee6kypeIr6nM9Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4HQnwug6Ee6kypeIr6nM9Q" x="12" y="30" width="267" height="129"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_6QXpUOg6Ee6kypeIr6nM9Q" type="2002" element="_6QVNEOg6Ee6kypeIr6nM9Q">
+          <children xmi:type="notation:Node" xmi:id="_6QYQYOg6Ee6kypeIr6nM9Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_6QYQYeg6Ee6kypeIr6nM9Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_6QYQYug6Ee6kypeIr6nM9Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_6QYQY-g6Ee6kypeIr6nM9Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_6QXpUeg6Ee6kypeIr6nM9Q" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6QXpUug6Ee6kypeIr6nM9Q" x="402" y="30" width="219" height="117"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_StdKcOz1Ee6hRu58dxysDg" type="2002" element="_StXD0Oz1Ee6hRu58dxysDg">
+          <children xmi:type="notation:Node" xmi:id="_StfmsOz1Ee6hRu58dxysDg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Stfmsez1Ee6hRu58dxysDg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Stfmsuz1Ee6hRu58dxysDg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Stfms-z1Ee6hRu58dxysDg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_StdKcez1Ee6hRu58dxysDg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_StdKcuz1Ee6hRu58dxysDg" x="228" y="198" width="255"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3fxxAug6Ee6kypeIr6nM9Q"/>
+        <edges xmi:type="notation:Edge" xmi:id="_7RBOAOg6Ee6kypeIr6nM9Q" type="4001" element="_7Q88kOg6Ee6kypeIr6nM9Q" source="_4HQnwOg6Ee6kypeIr6nM9Q" target="_6QXpUOg6Ee6kypeIr6nM9Q">
+          <children xmi:type="notation:Node" xmi:id="_7RB1EOg6Ee6kypeIr6nM9Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7RB1Eeg6Ee6kypeIr6nM9Q" y="-17"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7RERUOg6Ee6kypeIr6nM9Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7RERUeg6Ee6kypeIr6nM9Q" x="-1" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7RE4YOg6Ee6kypeIr6nM9Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7RE4Yeg6Ee6kypeIr6nM9Q" x="-1" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7RBOAeg6Ee6kypeIr6nM9Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7RBOAug6Ee6kypeIr6nM9Q" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7RBOA-g6Ee6kypeIr6nM9Q" points="[2, 2, -129, 6]$[73, 2, -58, 6]$[127, 2, -4, 6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7RGtkOg6Ee6kypeIr6nM9Q" id="(0.9924528301886792,0.7874015748031497)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7RGtkeg6Ee6kypeIr6nM9Q" id="(0.018433179723502304,0.8347826086956521)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UV3SsOz1Ee6hRu58dxysDg" type="4001" element="_UVzoUOz1Ee6hRu58dxysDg" source="_4ejtcOg6Ee6kypeIr6nM9Q" target="_StdKcOz1Ee6hRu58dxysDg">
+          <children xmi:type="notation:Node" xmi:id="_UV35wOz1Ee6hRu58dxysDg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UV35wez1Ee6hRu58dxysDg" x="3" y="31"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UV4g0Oz1Ee6hRu58dxysDg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UV4g0ez1Ee6hRu58dxysDg" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UV4g0uz1Ee6hRu58dxysDg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UV4g0-z1Ee6hRu58dxysDg" x="-3" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UV3Ssez1Ee6hRu58dxysDg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UV3Ssuz1Ee6hRu58dxysDg" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UV3Ss-z1Ee6hRu58dxysDg" points="[0, 0, -102, -96]$[102, 96, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UV6WAOz1Ee6hRu58dxysDg" id="(0.6224066390041494,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UV6WAez1Ee6hRu58dxysDg" id="(0.18972332015810275,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XVeeeOz1Ee6hRu58dxysDg" type="4001" element="_XVcpQOz1Ee6hRu58dxysDg" source="_4ejtcOg6Ee6kypeIr6nM9Q" target="_6QXpUOg6Ee6kypeIr6nM9Q">
+          <children xmi:type="notation:Node" xmi:id="_XVeefOz1Ee6hRu58dxysDg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XVeefez1Ee6hRu58dxysDg" x="-3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XVfFgOz1Ee6hRu58dxysDg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XVfFgez1Ee6hRu58dxysDg" x="2" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XVfFguz1Ee6hRu58dxysDg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XVfFg-z1Ee6hRu58dxysDg" x="2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XVeeeez1Ee6hRu58dxysDg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XVeeeuz1Ee6hRu58dxysDg" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XVeee-z1Ee6hRu58dxysDg" points="[0, 0, -137, -4]$[137, 4, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVfFhOz1Ee6hRu58dxysDg" id="(1.0,0.4)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVfFhez1Ee6hRu58dxysDg" id="(0.0,0.5043478260869565)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3f4esOg6Ee6kypeIr6nM9Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3f4eseg6Ee6kypeIr6nM9Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4HG2wOg6Ee6kypeIr6nM9Q" name="NetworkNode: 1" outgoingEdges="_7Q88kOg6Ee6kypeIr6nM9Q">
+      <target xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4HJTAOg6Ee6kypeIr6nM9Q" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_4ee08Og6Ee6kypeIr6nM9Q" name="Message: 1TimeStamp: 5.0" outgoingEdges="_UVzoUOz1Ee6hRu58dxysDg _XVcpQOz1Ee6hRu58dxysDg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="networking:Message" href="product00005.networkingpl#//@messages.0"/>
+        <semanticElements xmi:type="networking:Message" href="product00005.networkingpl#//@messages.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_4efcAOg6Ee6kypeIr6nM9Q" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6QVNEOg6Ee6kypeIr6nM9Q" name="NetworkNode: 2" incomingEdges="_7Q88kOg6Ee6kypeIr6nM9Q _XVcpQOz1Ee6hRu58dxysDg">
+      <target xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6QV0IOg6Ee6kypeIr6nM9Q" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7Q88kOg6Ee6kypeIr6nM9Q" name="Speed: 20.0" sourceNode="_4HG2wOg6Ee6kypeIr6nM9Q" targetNode="_6QVNEOg6Ee6kypeIr6nM9Q">
+      <target xmi:type="networking:Link" href="product00005.networkingpl#//@links.0"/>
+      <semanticElements xmi:type="networking:Link" href="product00005.networkingpl#//@links.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7Q9joOg6Ee6kypeIr6nM9Q" lineStyle="dash_dot" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7Q9joeg6Ee6kypeIr6nM9Q" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_StXD0Oz1Ee6hRu58dxysDg" name="NetworkNode: 3" incomingEdges="_UVzoUOz1Ee6hRu58dxysDg">
+      <target xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.2"/>
+      <semanticElements xmi:type="networking:Node" href="product00005.networkingpl#//@nodes.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_StXD0ez1Ee6hRu58dxysDg" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UVzoUOz1Ee6hRu58dxysDg" name="from" sourceNode="_4ee08Og6Ee6kypeIr6nM9Q" targetNode="_StXD0Oz1Ee6hRu58dxysDg">
+      <target xmi:type="networking:Message" href="product00005.networkingpl#//@messages.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UVzoUez1Ee6hRu58dxysDg" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UVzoUuz1Ee6hRu58dxysDg" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XVcpQOz1Ee6hRu58dxysDg" name="to" sourceNode="_4ee08Og6Ee6kypeIr6nM9Q" targetNode="_6QVNEOg6Ee6kypeIr6nM9Q">
+      <target xmi:type="networking:Message" href="product00005.networkingpl#//@messages.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XVcpQez1Ee6hRu58dxysDg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XVcpQuz1Ee6hRu58dxysDg" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3fakoOg6Ee6kypeIr6nM9Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00005.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="networking:Network" href="product00005.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_tDWGMOhtEe6Rg4F8qZ8xUw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tDsrgOhtEe6Rg4F8qZ8xUw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_tDsrgehtEe6Rg4F8qZ8xUw" type="Sirius" element="_tDWGMOhtEe6Rg4F8qZ8xUw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_wAXQ8OhtEe6Rg4F8qZ8xUw" type="2002" element="_wAPVIOhtEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_wAZGIOhtEe6Rg4F8qZ8xUw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_wAZtMOhtEe6Rg4F8qZ8xUw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_wAZtMehtEe6Rg4F8qZ8xUw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_wAZtMuhtEe6Rg4F8qZ8xUw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_wAXQ8ehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wAXQ8uhtEe6Rg4F8qZ8xUw" x="174" y="96" width="237" height="171"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_x6jFsOhtEe6Rg4F8qZ8xUw" type="2002" element="_x6h3kOhtEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_x6jFs-htEe6Rg4F8qZ8xUw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_x6jFtOhtEe6Rg4F8qZ8xUw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_x6jFtehtEe6Rg4F8qZ8xUw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_x6jFtuhtEe6Rg4F8qZ8xUw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_x6jFsehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x6jFsuhtEe6Rg4F8qZ8xUw" x="750" y="120"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_tDsrguhtEe6Rg4F8qZ8xUw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tDyyIOhtEe6Rg4F8qZ8xUw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_tDyyIehtEe6Rg4F8qZ8xUw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_wAPVIOhtEe6Rg4F8qZ8xUw" name="NetworkNode: 1">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wAS_gOhtEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <target xmi:type="product00000:Node" href="My.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00000:Node" href="My.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_x6h3kOhtEe6Rg4F8qZ8xUw" name="NetworkNode: 2">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_x6ieoOhtEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <target xmi:type="product00000:Node" href="My.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00000:Node" href="My.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_tDcz4OhtEe6Rg4F8qZ8xUw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00000:Network" href="My.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_5CNr8OhtEe6Rg4F8qZ8xUw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5COTAuhtEe6Rg4F8qZ8xUw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_5COTA-htEe6Rg4F8qZ8xUw" type="Sirius" element="_5CNr8OhtEe6Rg4F8qZ8xUw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_5XibsOhtEe6Rg4F8qZ8xUw" type="2002" element="_5XfYYOhtEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_5Xibs-htEe6Rg4F8qZ8xUw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_5XibtOhtEe6Rg4F8qZ8xUw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_9fXMsOhtEe6Rg4F8qZ8xUw" type="3007" element="_9fRGEOhtEe6Rg4F8qZ8xUw">
+              <children xmi:type="notation:Node" xmi:id="_9fXzwOhtEe6Rg4F8qZ8xUw" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9fXzwehtEe6Rg4F8qZ8xUw" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_9fYa0OhtEe6Rg4F8qZ8xUw" type="3003" element="_9fRtIOhtEe6Rg4F8qZ8xUw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_9fYa0ehtEe6Rg4F8qZ8xUw" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9fYa0uhtEe6Rg4F8qZ8xUw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_9fXMsehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9fXMsuhtEe6Rg4F8qZ8xUw" x="43" y="54" width="121" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5XibtehtEe6Rg4F8qZ8xUw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5XibtuhtEe6Rg4F8qZ8xUw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5XibsehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5XibsuhtEe6Rg4F8qZ8xUw" x="288" y="180" width="243" height="141"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7FoVMOhtEe6Rg4F8qZ8xUw" type="2002" element="_7Fl48OhtEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_7FoVM-htEe6Rg4F8qZ8xUw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_7Fo8QOhtEe6Rg4F8qZ8xUw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_-c0TcOhtEe6Rg4F8qZ8xUw" type="3007" element="_-cxQIOhtEe6Rg4F8qZ8xUw">
+              <children xmi:type="notation:Node" xmi:id="_-c0Tc-htEe6Rg4F8qZ8xUw" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_-c0TdOhtEe6Rg4F8qZ8xUw" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_-c0TdehtEe6Rg4F8qZ8xUw" type="3003" element="_-cx3MOhtEe6Rg4F8qZ8xUw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_-c0TduhtEe6Rg4F8qZ8xUw" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c0Td-htEe6Rg4F8qZ8xUw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-c0TcehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c0TcuhtEe6Rg4F8qZ8xUw" x="25" y="72" width="139" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7Fo8QehtEe6Rg4F8qZ8xUw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7Fo8QuhtEe6Rg4F8qZ8xUw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7FoVMehtEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7FoVMuhtEe6Rg4F8qZ8xUw" x="708" y="168" width="213" height="135"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CqX5BuhuEe6Rg4F8qZ8xUw" type="2002" element="_CqWD0OhuEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_CqYgEOhuEe6Rg4F8qZ8xUw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_CqYgEehuEe6Rg4F8qZ8xUw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_CqYgEuhuEe6Rg4F8qZ8xUw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_CqYgE-huEe6Rg4F8qZ8xUw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CqX5B-huEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CqX5COhuEe6Rg4F8qZ8xUw" x="642" y="372"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_5COTBOhtEe6Rg4F8qZ8xUw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_BSdD0OhuEe6Rg4F8qZ8xUw" type="4001" element="_BSYyYOhuEe6Rg4F8qZ8xUw" source="_9fXMsOhtEe6Rg4F8qZ8xUw" target="_7FoVMOhtEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_BSdq4OhuEe6Rg4F8qZ8xUw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSdq4ehuEe6Rg4F8qZ8xUw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BSdq4uhuEe6Rg4F8qZ8xUw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSdq4-huEe6Rg4F8qZ8xUw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BSdq5OhuEe6Rg4F8qZ8xUw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSdq5ehuEe6Rg4F8qZ8xUw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BSdD0ehuEe6Rg4F8qZ8xUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_BSdD0uhuEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BSdD0-huEe6Rg4F8qZ8xUw" points="[0, 0, -251, 0]$[251, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BSfgEOhuEe6Rg4F8qZ8xUw" id="(1.0,0.2)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BSfgEehuEe6Rg4F8qZ8xUw" id="(0.0,0.5864661654135338)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_DWNrUOhuEe6Rg4F8qZ8xUw" type="4001" element="_DWLPEOhuEe6Rg4F8qZ8xUw" source="_7FoVMOhtEe6Rg4F8qZ8xUw" target="_CqX5BuhuEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_DWNrVOhuEe6Rg4F8qZ8xUw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DWNrVehuEe6Rg4F8qZ8xUw" x="-9" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DWNrVuhuEe6Rg4F8qZ8xUw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DWNrV-huEe6Rg4F8qZ8xUw" x="9" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DWNrWOhuEe6Rg4F8qZ8xUw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DWNrWehuEe6Rg4F8qZ8xUw" x="8" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_DWNrUehuEe6Rg4F8qZ8xUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DWNrUuhuEe6Rg4F8qZ8xUw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DWNrU-huEe6Rg4F8qZ8xUw" points="[0, 0, 65, -71]$[-65, 71, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DWNrWuhuEe6Rg4F8qZ8xUw" id="(0.43601895734597157,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DWNrW-huEe6Rg4F8qZ8xUw" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_E4L0YOhuEe6Rg4F8qZ8xUw" type="4001" element="_E4JYIOhuEe6Rg4F8qZ8xUw" source="_-c0TcOhtEe6Rg4F8qZ8xUw" target="_CqX5BuhuEe6Rg4F8qZ8xUw">
+          <children xmi:type="notation:Node" xmi:id="_E4L0ZOhuEe6Rg4F8qZ8xUw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4L0ZehuEe6Rg4F8qZ8xUw" x="-8" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E4L0ZuhuEe6Rg4F8qZ8xUw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4L0Z-huEe6Rg4F8qZ8xUw" x="7" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E4L0aOhuEe6Rg4F8qZ8xUw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4L0aehuEe6Rg4F8qZ8xUw" x="8" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_E4L0YehuEe6Rg4F8qZ8xUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_E4L0YuhuEe6Rg4F8qZ8xUw" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E4L0Y-huEe6Rg4F8qZ8xUw" points="[-1, 2, 48, -96]$[-49, 98, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E4L0auhuEe6Rg4F8qZ8xUw" id="(0.7482014388489209,0.9333333333333333)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E4L0a-huEe6Rg4F8qZ8xUw" id="(0.8108108108108109,0.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5CO6EOhtEe6Rg4F8qZ8xUw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_5CO6EehtEe6Rg4F8qZ8xUw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5XfYYOhtEe6Rg4F8qZ8xUw" name="NetworkNode: 1">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5XfYYehtEe6Rg4F8qZ8xUw" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_9fRGEOhtEe6Rg4F8qZ8xUw" name="Message: 1" outgoingEdges="_BSYyYOhuEe6Rg4F8qZ8xUw" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_9fRtIOhtEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.0"/>
+        <semanticElements xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.0"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7Fl48OhtEe6Rg4F8qZ8xUw" name="NetworkNode: 2" outgoingEdges="_DWLPEOhuEe6Rg4F8qZ8xUw" incomingEdges="_BSYyYOhuEe6Rg4F8qZ8xUw">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7Fl48ehtEe6Rg4F8qZ8xUw" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_-cxQIOhtEe6Rg4F8qZ8xUw" name="Message: 2" outgoingEdges="_E4JYIOhuEe6Rg4F8qZ8xUw" width="3" height="3" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:Square" uid="_-cx3MOhtEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.1"/>
+        <semanticElements xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.1"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_BSYyYOhuEe6Rg4F8qZ8xUw" name="from" sourceNode="_9fRGEOhtEe6Rg4F8qZ8xUw" targetNode="_7Fl48OhtEe6Rg4F8qZ8xUw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_BSZZcOhuEe6Rg4F8qZ8xUw" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_BSZZcehuEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']"/>
+      <target xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_CqWD0OhuEe6Rg4F8qZ8xUw" name="NetworkNode: 3" incomingEdges="_DWLPEOhuEe6Rg4F8qZ8xUw _E4JYIOhuEe6Rg4F8qZ8xUw">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_CqWD0ehuEe6Rg4F8qZ8xUw" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <target xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.2"/>
+      <semanticElements xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.2"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DWLPEOhuEe6Rg4F8qZ8xUw" sourceNode="_7Fl48OhtEe6Rg4F8qZ8xUw" targetNode="_CqWD0OhuEe6Rg4F8qZ8xUw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DWLPEehuEe6Rg4F8qZ8xUw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='LinkedTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DWLPEuhuEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='LinkedTo']"/>
+      <target xmi:type="product00000:Node" href="product00000.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_E4JYIOhuEe6Rg4F8qZ8xUw" name="to" sourceNode="_-cxQIOhtEe6Rg4F8qZ8xUw" targetNode="_CqWD0OhuEe6Rg4F8qZ8xUw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_E4JYIehuEe6Rg4F8qZ8xUw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_E4JYIuhuEe6Rg4F8qZ8xUw" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+      <target xmi:type="product00000:Message" href="product00000.networkingpl#//@messages.1"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_5CNr8ehtEe6Rg4F8qZ8xUw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00000.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00000:Network" href="product00000.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_cUug4Oh6Ee6xAtwa7Z1hRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_cU0ngOh6Ee6xAtwa7Z1hRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_cU0ngeh6Ee6xAtwa7Z1hRg" type="Sirius" element="_cUug4Oh6Ee6xAtwa7Z1hRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_cU6uIOh6Ee6xAtwa7Z1hRg" type="2002" element="_cU1OkOh6Ee6xAtwa7Z1hRg">
+          <children xmi:type="notation:Node" xmi:id="_cU8jUOh6Ee6xAtwa7Z1hRg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_cU9KYOh6Ee6xAtwa7Z1hRg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_cU-YgOh6Ee6xAtwa7Z1hRg" type="3007" element="_cU2cseh6Ee6xAtwa7Z1hRg">
+              <children xmi:type="notation:Node" xmi:id="_cU-_kOh6Ee6xAtwa7Z1hRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_cU-_keh6Ee6xAtwa7Z1hRg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_cVA0wOh6Ee6xAtwa7Z1hRg" type="3003" element="_cU3DwOh6Ee6xAtwa7Z1hRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_cVA0weh6Ee6xAtwa7Z1hRg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cVA0wuh6Ee6xAtwa7Z1hRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_cU-Ygeh6Ee6xAtwa7Z1hRg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cU-Yguh6Ee6xAtwa7Z1hRg" x="31" y="59" width="175" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cU_moOh6Ee6xAtwa7Z1hRg" type="3007" element="_cU3Dwuh6Ee6xAtwa7Z1hRg">
+              <children xmi:type="notation:Node" xmi:id="_cU_mo-h6Ee6xAtwa7Z1hRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_cU_mpOh6Ee6xAtwa7Z1hRg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_cVA0w-h6Ee6xAtwa7Z1hRg" type="3003" element="_cU3Dw-h6Ee6xAtwa7Z1hRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_cVA0xOh6Ee6xAtwa7Z1hRg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cVA0xeh6Ee6xAtwa7Z1hRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_cU_moeh6Ee6xAtwa7Z1hRg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cU_mouh6Ee6xAtwa7Z1hRg" x="25" y="144" width="217" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cVANsOh6Ee6xAtwa7Z1hRg" type="3007" element="_cU3q1Oh6Ee6xAtwa7Z1hRg">
+              <children xmi:type="notation:Node" xmi:id="_cVANs-h6Ee6xAtwa7Z1hRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_cVANtOh6Ee6xAtwa7Z1hRg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_cVBb0Oh6Ee6xAtwa7Z1hRg" type="3003" element="_cU3q1eh6Ee6xAtwa7Z1hRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_cVBb0eh6Ee6xAtwa7Z1hRg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cVBb0uh6Ee6xAtwa7Z1hRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_cVANseh6Ee6xAtwa7Z1hRg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cVANsuh6Ee6xAtwa7Z1hRg" x="271" y="96" width="247" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_cU9KYeh6Ee6xAtwa7Z1hRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_cU9KYuh6Ee6xAtwa7Z1hRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cU6uIeh6Ee6xAtwa7Z1hRg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cU6uIuh6Ee6xAtwa7Z1hRg" x="24" y="30" width="555" height="249"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zjScwOh7Ee6ftqTwjjIq9A" type="2002" element="_zjLvEOh7Ee6ftqTwjjIq9A">
+          <children xmi:type="notation:Node" xmi:id="_zjU5AOh7Ee6ftqTwjjIq9A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_zjVgEOh7Ee6ftqTwjjIq9A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0VmqgOh7Ee6ftqTwjjIq9A" type="3007" element="_0VjAIOh7Ee6ftqTwjjIq9A">
+              <children xmi:type="notation:Node" xmi:id="_0VnRkOh7Ee6ftqTwjjIq9A" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0VnRkeh7Ee6ftqTwjjIq9A" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0Vn4oOh7Ee6ftqTwjjIq9A" type="3003" element="_0VjnMOh7Ee6ftqTwjjIq9A">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0Vn4oeh7Ee6ftqTwjjIq9A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Vn4ouh7Ee6ftqTwjjIq9A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0Vmqgeh7Ee6ftqTwjjIq9A" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Vmqguh7Ee6ftqTwjjIq9A" x="61" y="84" width="217" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zjVgEeh7Ee6ftqTwjjIq9A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zjVgEuh7Ee6ftqTwjjIq9A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zjScweh7Ee6ftqTwjjIq9A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjScwuh7Ee6ftqTwjjIq9A" x="774" y="42" width="369" height="237"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_6SL8IOqIEe6B_YfSLie22w" type="2002" element="_6SEAUOqIEe6B_YfSLie22w">
+          <children xmi:type="notation:Node" xmi:id="_6SPmgOqIEe6B_YfSLie22w" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_6SPmgeqIEe6B_YfSLie22w" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_9QEpkOqIEe6B_YfSLie22w" type="3007" element="_9QAYIOqIEe6B_YfSLie22w">
+              <children xmi:type="notation:Node" xmi:id="_9QFQoOqIEe6B_YfSLie22w" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9QFQoeqIEe6B_YfSLie22w" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_9QFQouqIEe6B_YfSLie22w" type="3003" element="_9QA_MOqIEe6B_YfSLie22w">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_9QFQo-qIEe6B_YfSLie22w" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9QFQpOqIEe6B_YfSLie22w"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_9QEpkeqIEe6B_YfSLie22w" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9QEpkuqIEe6B_YfSLie22w" x="103" y="96" width="241" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_6SPmguqIEe6B_YfSLie22w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_6SPmg-qIEe6B_YfSLie22w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_6SL8IeqIEe6B_YfSLie22w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6SL8IuqIEe6B_YfSLie22w" x="444" y="348" width="411" height="159"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_cU0nguh6Ee6xAtwa7Z1hRg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_3o-fwOh7Ee6ftqTwjjIq9A" type="4001" element="_3o61YOh7Ee6ftqTwjjIq9A" source="_cVANsOh6Ee6xAtwa7Z1hRg" target="_zjScwOh7Ee6ftqTwjjIq9A">
+          <children xmi:type="notation:Node" xmi:id="_3o_G0Oh7Ee6ftqTwjjIq9A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3o_G0eh7Ee6ftqTwjjIq9A" x="-3" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3o_G0uh7Ee6ftqTwjjIq9A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3o_G0-h7Ee6ftqTwjjIq9A" x="-5" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3o_G1Oh7Ee6ftqTwjjIq9A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3o_G1eh7Ee6ftqTwjjIq9A" x="-5" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3o-fweh7Ee6ftqTwjjIq9A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3o-fwuh7Ee6ftqTwjjIq9A" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3o-fw-h7Ee6ftqTwjjIq9A" points="[0, 0, -227, 66]$[227, -66, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3o_G1uh7Ee6ftqTwjjIq9A" id="(1.0,0.4)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3o_G1-h7Ee6ftqTwjjIq9A" id="(0.0,0.15319148936170213)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4ygToOh7Ee6ftqTwjjIq9A" type="4001" element="_4ydQUOh7Ee6ftqTwjjIq9A" source="_zjScwOh7Ee6ftqTwjjIq9A" target="_cU6uIOh6Ee6xAtwa7Z1hRg">
+          <children xmi:type="notation:Node" xmi:id="_4yg6sOh7Ee6ftqTwjjIq9A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yg6seh7Ee6ftqTwjjIq9A" x="14" y="24"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4yg6suh7Ee6ftqTwjjIq9A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yg6s-h7Ee6ftqTwjjIq9A" x="2" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4yg6tOh7Ee6ftqTwjjIq9A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yg6teh7Ee6ftqTwjjIq9A" x="3" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4ygToeh7Ee6ftqTwjjIq9A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4ygTouh7Ee6ftqTwjjIq9A" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ygTo-h7Ee6ftqTwjjIq9A" points="[0, 0, 197, 0]$[-197, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4yg6tuh7Ee6ftqTwjjIq9A" id="(0.0,0.7148936170212766)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4yg6t-h7Ee6ftqTwjjIq9A" id="(1.0,0.728744939271255)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_-33GwOqIEe6B_YfSLie22w" type="4001" element="_-3y1UOqIEe6B_YfSLie22w" source="_9QEpkOqIEe6B_YfSLie22w" target="_zjScwOh7Ee6ftqTwjjIq9A">
+          <children xmi:type="notation:Node" xmi:id="_-33GxOqIEe6B_YfSLie22w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-33GxeqIEe6B_YfSLie22w" x="82" y="47"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-34U4OqIEe6B_YfSLie22w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-34U4eqIEe6B_YfSLie22w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-34U4uqIEe6B_YfSLie22w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-34U4-qIEe6B_YfSLie22w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-33GweqIEe6B_YfSLie22w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-33GwuqIEe6B_YfSLie22w" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-33Gw-qIEe6B_YfSLie22w" points="[0, 0, -126, 173]$[126, -173, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-35jAOqIEe6B_YfSLie22w" id="(0.8464730290456431,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-35jAeqIEe6B_YfSLie22w" id="(0.29427792915531337,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_AcrIcOqJEe6B_YfSLie22w" type="4001" element="_Acm3AOqJEe6B_YfSLie22w" source="_9QEpkOqIEe6B_YfSLie22w" target="_cU6uIOh6Ee6xAtwa7Z1hRg">
+          <children xmi:type="notation:Node" xmi:id="_AcrIdOqJEe6B_YfSLie22w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AcrIdeqJEe6B_YfSLie22w" x="72" y="-30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AcrIduqJEe6B_YfSLie22w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AcrId-qJEe6B_YfSLie22w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AcrIeOqJEe6B_YfSLie22w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AcrIeeqJEe6B_YfSLie22w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_AcrIceqJEe6B_YfSLie22w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AcrIcuqJEe6B_YfSLie22w" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AcrIc-qJEe6B_YfSLie22w" points="[0, 0, 174, 173]$[-174, -173, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AcrIeuqJEe6B_YfSLie22w" id="(0.12448132780082988,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AcrIe-qJEe6B_YfSLie22w" id="(0.6943942133815552,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_cU4R4Oh6Ee6xAtwa7Z1hRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_cU4R4eh6Ee6xAtwa7Z1hRg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_cU1OkOh6Ee6xAtwa7Z1hRg" name="NetworkNode: 1" incomingEdges="_4ydQUOh7Ee6ftqTwjjIq9A _Acm3AOqJEe6B_YfSLie22w">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cU11oOh6Ee6xAtwa7Z1hRg" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_cU2cseh6Ee6xAtwa7Z1hRg" name="Broken: TimeStamp: 0.0" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_cU3DwOh6Ee6xAtwa7Z1hRg" labelSize="12" showIcon="false" labelPosition="node" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.1"/>
+        <semanticElements xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.1"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_cU3Dwuh6Ee6xAtwa7Z1hRg" name="Broken: TimeStamp: 0.0" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_cU3Dw-h6Ee6xAtwa7Z1hRg" labelSize="12" showIcon="false" labelPosition="node" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.2"/>
+        <semanticElements xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.2"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_cU3q1Oh6Ee6xAtwa7Z1hRg" name="Broken: TimeStamp: 0.0" outgoingEdges="_3o61YOh7Ee6ftqTwjjIq9A" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_cU3q1eh6Ee6xAtwa7Z1hRg" labelSize="12" showIcon="false" labelPosition="node" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.3"/>
+        <semanticElements xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.3"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zjLvEOh7Ee6ftqTwjjIq9A" name="NetworkNode: 2" outgoingEdges="_4ydQUOh7Ee6ftqTwjjIq9A" incomingEdges="_3o61YOh7Ee6ftqTwjjIq9A _-3y1UOqIEe6B_YfSLie22w">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zjLvEeh7Ee6ftqTwjjIq9A" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0VjAIOh7Ee6ftqTwjjIq9A" name="Broken: TimeStamp: 0.0" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_0VjnMOh7Ee6ftqTwjjIq9A" labelSize="12" showIcon="false" labelPosition="node" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.4"/>
+        <semanticElements xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.4"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3o61YOh7Ee6ftqTwjjIq9A" name="to" sourceNode="_cU3q1Oh6Ee6xAtwa7Z1hRg" targetNode="_zjLvEOh7Ee6ftqTwjjIq9A">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3o7ccOh7Ee6ftqTwjjIq9A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3o7cceh7Ee6ftqTwjjIq9A" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+      <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.3"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4ydQUOh7Ee6ftqTwjjIq9A" name="Prob: 50.0" sourceNode="_zjLvEOh7Ee6ftqTwjjIq9A" targetNode="_cU1OkOh6Ee6xAtwa7Z1hRg">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4ydQUeh7Ee6ftqTwjjIq9A" lineStyle="dash_dot" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4ydQUuh7Ee6ftqTwjjIq9A" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='RichLink']"/>
+      <target xmi:type="product00031:Link" href="product00031.networkingpl#//@links.1"/>
+      <semanticElements xmi:type="product00031:Link" href="product00031.networkingpl#//@links.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6SEAUOqIEe6B_YfSLie22w" name="NetworkNode: 3">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6SEnYOqIEe6B_YfSLie22w" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_9QAYIOqIEe6B_YfSLie22w" name="Broken: TimeStamp: 0.0" outgoingEdges="_-3y1UOqIEe6B_YfSLie22w _Acm3AOqJEe6B_YfSLie22w" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_9QA_MOqIEe6B_YfSLie22w" labelSize="12" showIcon="false" labelPosition="node" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.5"/>
+        <semanticElements xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.5"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.2"/>
+      <semanticElements xmi:type="product00031:Node" href="product00031.networkingpl#//@nodes.2"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-3y1UOqIEe6B_YfSLie22w" name="from" sourceNode="_9QAYIOqIEe6B_YfSLie22w" targetNode="_zjLvEOh7Ee6ftqTwjjIq9A">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-3y1UeqIEe6B_YfSLie22w" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-3y1UuqIEe6B_YfSLie22w" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageFrom']"/>
+      <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.5"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Acm3AOqJEe6B_YfSLie22w" name="to" sourceNode="_9QAYIOqIEe6B_YfSLie22w" targetNode="_cU1OkOh6Ee6xAtwa7Z1hRg">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Acm3AeqJEe6B_YfSLie22w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Acm3AuqJEe6B_YfSLie22w" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+      <target xmi:type="product00031:Message" href="product00031.networkingpl#//@messages.5"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_cUug4eh6Ee6xAtwa7Z1hRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00031.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00031:Network" href="product00031.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_DX5uMOqvEe6fWJeKnCNYAQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DYHJkOqvEe6fWJeKnCNYAQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_DYHJkeqvEe6fWJeKnCNYAQ" type="Sirius" element="_DX5uMOqvEe6fWJeKnCNYAQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_DuJD8OqvEe6fWJeKnCNYAQ" type="2002" element="_Dt9dwOqvEe6fWJeKnCNYAQ">
+          <children xmi:type="notation:Node" xmi:id="_DuKSEOqvEe6fWJeKnCNYAQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DuKSEeqvEe6fWJeKnCNYAQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_EUnOEOqvEe6fWJeKnCNYAQ" type="3007" element="_EUhugOqvEe6fWJeKnCNYAQ">
+              <children xmi:type="notation:Node" xmi:id="_EUn1IOqvEe6fWJeKnCNYAQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_EUn1IeqvEe6fWJeKnCNYAQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_EUocMOqvEe6fWJeKnCNYAQ" type="3003" element="_EUiVkOqvEe6fWJeKnCNYAQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_EUocMeqvEe6fWJeKnCNYAQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EUocMuqvEe6fWJeKnCNYAQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_EUnOEeqvEe6fWJeKnCNYAQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EUnOEuqvEe6fWJeKnCNYAQ" x="25" y="78" width="253" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DuKSEuqvEe6fWJeKnCNYAQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DuKSE-qvEe6fWJeKnCNYAQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DuJD8eqvEe6fWJeKnCNYAQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DuJD8uqvEe6fWJeKnCNYAQ" x="36" y="84" width="297" height="165"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GT4-MOqvEe6fWJeKnCNYAQ" type="2002" element="_GT164OqvEe6fWJeKnCNYAQ">
+          <children xmi:type="notation:Node" xmi:id="_GT5lQOqvEe6fWJeKnCNYAQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_GT5lQeqvEe6fWJeKnCNYAQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_HLMZoOqvEe6fWJeKnCNYAQ" type="3007" element="_HLJWUOqvEe6fWJeKnCNYAQ">
+              <children xmi:type="notation:Node" xmi:id="_HLMZo-qvEe6fWJeKnCNYAQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_HLMZpOqvEe6fWJeKnCNYAQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_HLMZpeqvEe6fWJeKnCNYAQ" type="3003" element="_HLJ9YOqvEe6fWJeKnCNYAQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_HLMZpuqvEe6fWJeKnCNYAQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLMZp-qvEe6fWJeKnCNYAQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_HLMZoeqvEe6fWJeKnCNYAQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLMZouqvEe6fWJeKnCNYAQ" x="61" y="72" width="241" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_GT5lQuqvEe6fWJeKnCNYAQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_GT5lQ-qvEe6fWJeKnCNYAQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GT4-MeqvEe6fWJeKnCNYAQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GT4-MuqvEe6fWJeKnCNYAQ" x="462" y="90" width="345" height="159"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_DYHJkuqvEe6fWJeKnCNYAQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_IUsYUOqvEe6fWJeKnCNYAQ" type="4001" element="_IUot8OqvEe6fWJeKnCNYAQ" source="_HLMZoOqvEe6fWJeKnCNYAQ" target="_DuJD8OqvEe6fWJeKnCNYAQ">
+          <children xmi:type="notation:Node" xmi:id="_IUs_YOqvEe6fWJeKnCNYAQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUs_YeqvEe6fWJeKnCNYAQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IUtmcOqvEe6fWJeKnCNYAQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUtmceqvEe6fWJeKnCNYAQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IUtmcuqvEe6fWJeKnCNYAQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUtmc-qvEe6fWJeKnCNYAQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IUsYUeqvEe6fWJeKnCNYAQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IUsYUuqvEe6fWJeKnCNYAQ" fontColor="2697711" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IUsYU-qvEe6fWJeKnCNYAQ" points="[0, 0, 197, 14]$[-197, -14, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IUu0kOqvEe6fWJeKnCNYAQ" id="(0.0,0.4)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IUu0keqvEe6fWJeKnCNYAQ" id="(1.0,0.5030674846625767)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DYMpIOqvEe6fWJeKnCNYAQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_DYMpIeqvEe6fWJeKnCNYAQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Dt9dwOqvEe6fWJeKnCNYAQ" name="NetworkNode: 1" incomingEdges="_IUot8OqvEe6fWJeKnCNYAQ">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DuBvMOqvEe6fWJeKnCNYAQ" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_EUhugOqvEe6fWJeKnCNYAQ" name="Message: 1TimeStamp: 0.0" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_EUiVkOqvEe6fWJeKnCNYAQ" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00004:Message" href="product00004.networkingpl#//@messages.0"/>
+        <semanticElements xmi:type="product00004:Message" href="product00004.networkingpl#//@messages.0"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00004:Node" href="product00004.networkingpl#//@nodes.0"/>
+      <semanticElements xmi:type="product00004:Node" href="product00004.networkingpl#//@nodes.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_GT164OqvEe6fWJeKnCNYAQ" name="NetworkNode: 2">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_GT2h8OqvEe6fWJeKnCNYAQ" labelSize="12" iconPath="/networking.visualization/icons/node_network_icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_HLJWUOqvEe6fWJeKnCNYAQ" name="Message: 2TimeStamp: 0.0" outgoingEdges="_IUot8OqvEe6fWJeKnCNYAQ" width="3" height="3" resizeKind="NSEW">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_HLJ9YOqvEe6fWJeKnCNYAQ" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@containerMappings[name='NodeContainer']/@subNodeMappings[name='Message']"/>
+        <target xmi:type="product00004:Message" href="product00004.networkingpl#//@messages.1"/>
+        <semanticElements xmi:type="product00004:Message" href="product00004.networkingpl#//@messages.1"/>
+      </ownedDiagramElements>
+      <target xmi:type="product00004:Node" href="product00004.networkingpl#//@nodes.1"/>
+      <semanticElements xmi:type="product00004:Node" href="product00004.networkingpl#//@nodes.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IUot8OqvEe6fWJeKnCNYAQ" name="to" sourceNode="_HLJWUOqvEe6fWJeKnCNYAQ" targetNode="_Dt9dwOqvEe6fWJeKnCNYAQ">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IUpVAOqvEe6fWJeKnCNYAQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IUpVAeqvEe6fWJeKnCNYAQ" labelSize="12" showIcon="false" labelColor="239,41,41"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer/@edgeMappings[name='EdgeMessageTo']"/>
+      <target xmi:type="product00004:Message" href="product00004.networkingpl#//@messages.1"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DX-msOqvEe6fWJeKnCNYAQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/product00004.design/description/Networking.odesign#//@ownedViewpoints[name='NetWorkingViewpoint']/@ownedRepresentations[name='NetworkingDiagram']/@defaultLayer"/>
+    <target xmi:type="product00004:Network" href="product00004.networkingpl#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

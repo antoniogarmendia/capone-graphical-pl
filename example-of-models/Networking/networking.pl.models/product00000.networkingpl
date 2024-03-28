@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<networking:Network xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:networking="http://networking/product00000">
+  <nodes/>
+  <nodes linkedTo="//@nodes.2"/>
+  <nodes/>
+  <messages from="//@nodes.1" at="//@nodes.0"/>
+  <messages from="//@nodes.1" to="//@nodes.2" at="//@nodes.1"/>
+</networking:Network>

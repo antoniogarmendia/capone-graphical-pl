@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<networking:Network xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:networking="http://networking/product00005">
+  <nodes/>
+  <nodes/>
+  <nodes/>
+  <messages from="//@nodes.2" to="//@nodes.1" at="//@nodes.0" timeStamp="5.0"/>
+  <links from="//@nodes.0" to="//@nodes.1" speed="20.0"/>
+</networking:Network>
