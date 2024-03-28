@@ -15,13 +15,13 @@ The project that contains the modules of the product line is in capone-examples/
 
 The project that contains the modules of the product line is in capone-examples/StateMachines.pl.visualization. The folder generated-graphical-environments/StateCharts contains the example of the product43.
 
-![Example of a StateChart Configuration](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/statecharts-product43.png?raw=true)
+<img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/statecharts-product43.png?raw=true" width="600" height="300" alt= "Example of a StateChart Configuration" />
 
 ### Petri nets
 
 The project that contains the modules of the product line is in capone-examples/PetriNets.pl.visualization. The folder generated-graphical-environments/PetriNets contains the example of the product58.
 
-![Example of a Petrinet Configuration](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/petrinets-product58.png?raw=true)
+<img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/petrinets-product58.png?raw=true" width="600" height="300" alt= "Example of a Petrinet Configuration" />
 
 ### Factories
 
