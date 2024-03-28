@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petrinets:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:petrinets="http://petrinets/product00053">
+  <places capacity="2"/>
+  <places capacity="4"/>
+  <transitions inhibitorPlaces="//@places.0" readPlaces="//@places.1"/>
+</petrinets:PetriNet>

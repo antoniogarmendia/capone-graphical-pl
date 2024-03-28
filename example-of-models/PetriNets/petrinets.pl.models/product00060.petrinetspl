@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petrinets:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:petrinets="http://petrinets/product00060">
+  <places capacity="2">
+    <tokens/>
+    <tokens/>
+    <tokens/>
+    <tokens/>
+  </places>
+  <transitions inPlaces="//@places.0"/>
+</petrinets:PetriNet>
