@@ -1,0 +1,4 @@
+Module Hierarchy {
+	metamodel 'modules/States/Hierarchy/Hierarchy.ecore'
+	extends.optional States
+}

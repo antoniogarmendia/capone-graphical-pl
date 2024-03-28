@@ -1,0 +1,5 @@
+Module Weighted {
+	metamodel 'modules/Arcs/Weighted/Weighted.ecore'
+	extends.alternative Arcs
+	diagram 'modules/Arcs/Weighted/Weighted.odesign'
+}

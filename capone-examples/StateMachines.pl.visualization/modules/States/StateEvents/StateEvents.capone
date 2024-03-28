@@ -1,0 +1,5 @@
+Module StateEvents {
+	metamodel 'modules/States/StateEvents/StateEvents.ecore'
+	extends.optional States	
+	diagram 'modules/States/StateEvents/StateEvents.odesign'
+}

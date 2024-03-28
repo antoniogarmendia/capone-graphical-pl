@@ -1,0 +1,5 @@
+Module ConveyorBreak {
+	extends.or Breakdown
+	metamodel 'modules/Breakdown/ConveyorBreak/ConveyorBreak.ecore'
+	diagram 'modules/Breakdown/ConveyorBreak/ConveyorBreak.odesign'	
+}

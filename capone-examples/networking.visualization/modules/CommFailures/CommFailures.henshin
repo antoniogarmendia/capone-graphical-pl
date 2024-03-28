@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_WIeOEMo8EeyV-uiDXdF13w">
+  <imports href="CommFailures_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_fWomwMo8EeyV-uiDXdF13w" name="CommFailures_move">
+    <parameters xmi:id="_pStOUMo8EeyV-uiDXdF13w" name="c" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <lhs xmi:id="_fXydUMo8EeyV-uiDXdF13w" name="Lhs">
+      <nodes xmi:id="_hR_gMMo8EeyV-uiDXdF13w" name="l">
+        <type href="CommFailures_effective.ecore#//Link"/>
+        <attributes xmi:id="_k43gQMo8EeyV-uiDXdF13w" value="c">
+          <type href="CommFailures_effective.ecore#//Link/lossProb"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_fXydUco8EeyV-uiDXdF13w" name="Rhs">
+      <nodes xmi:id="_hR_gMco8EeyV-uiDXdF13w" name="l">
+        <type href="CommFailures_effective.ecore#//Link"/>
+        <attributes xmi:id="_k43gQco8EeyV-uiDXdF13w" value="c">
+          <type href="CommFailures_effective.ecore#//Link/lossProb"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <attributeConditions xmi:id="_qjybsMo8EeyV-uiDXdF13w" name="prob" conditionText="java.util.Math.random()>c"/>
+    <mappings xmi:id="_hR_gMso8EeyV-uiDXdF13w" origin="_hR_gMMo8EeyV-uiDXdF13w" image="_hR_gMco8EeyV-uiDXdF13w"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,5 @@
+Module Inhibitor {
+	metamodel 'modules/Arcs/Inhibitor/Inhibitor.ecore'
+	extends.optional Arcs
+	diagram 'modules/Arcs/Inhibitor/Inhibitor.odesign'
+}

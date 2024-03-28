@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="StateMachines"/>
+	<feature automatic="selected" name="States"/>
+	<feature name="Hierarchy"/>
+	<feature name="Parallel"/>
+	<feature name="Sequential"/>
+	<feature name="StateEvents"/>
+	<feature automatic="selected" name="Transitions"/>
+	<feature name="Events"/>
+	<feature name="Timed"/>
+	<feature automatic="selected" name="TransitionsALT"/>
+	<feature automatic="unselected" name="Immediate"/>
+	<feature manual="selected" name="Triggered"/>
+</configuration>

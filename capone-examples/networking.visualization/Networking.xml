@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="Networking">
+			<feature name="Ack"/>
+			<feature name="NodeFailures"/>
+			<feature name="TimeStamped"/>
+			<alt mandatory="true" name="NetworkingALT">
+				<graphics key="collapsed" value="false"/>
+				<or name="RichLink">
+					<graphics key="collapsed" value="false"/>
+					<feature name="CommFailures"/>
+					<feature name="Speed"/>
+				</or>
+				<feature name="SimpleLink"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>

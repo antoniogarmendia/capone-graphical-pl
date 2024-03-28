@@ -1,0 +1,8 @@
+Module SimpleLink {
+	metamodel 'modules/SimpleLink/SimpleLink.ecore'
+	extends.alternative Networking
+	rules 'modules/SimpleLink/SimpleLink.henshin' {
+		move extends Networking.move
+	}
+	diagram 'modules/SimpleLink/SimpleLink.odesign'
+}

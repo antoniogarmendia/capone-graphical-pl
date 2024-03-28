@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_BNfGUJFvEey-rrB6TMkHCg">
+  <imports href="Ack_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Dr4bYJFvEey-rrB6TMkHCg" name="ack_send">
+    <lhs xmi:id="_Dr-iAJFvEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_IuKCcJFvEey-rrB6TMkHCg" name="m">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_MGw9AJFvEey-rrB6TMkHCg" value="false">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Dr-iAZFvEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_IuKCcZFvEey-rrB6TMkHCg" name="m">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_MGzZQJFvEey-rrB6TMkHCg" value="false">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_IuKCcpFvEey-rrB6TMkHCg" origin="_IuKCcJFvEey-rrB6TMkHCg" image="_IuKCcZFvEey-rrB6TMkHCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_gabDcJFvEey-rrB6TMkHCg" name="ack_receive">
+    <lhs xmi:id="_gahxIJFvEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_jUgO8JFvEey-rrB6TMkHCg" name="m">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_kop-cJFvEey-rrB6TMkHCg" value="true">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_gahxIZFvEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_jUhdEJFvEey-rrB6TMkHCg" name="m">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_koqlgJFvEey-rrB6TMkHCg" value="true">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_jUhdEZFvEey-rrB6TMkHCg" origin="_jUgO8JFvEey-rrB6TMkHCg" image="_jUhdEJFvEey-rrB6TMkHCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_uNr_AJFvEey-rrB6TMkHCg" name="send_ack">
+    <lhs xmi:id="_uNw3gJFvEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_BJilAJFwEey-rrB6TMkHCg" name="s" incoming="_KlT74JFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_BnJHAJFwEey-rrB6TMkHCg" name="t" incoming="_EMupMJFwEey-rrB6TMkHCg _eAhXYJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_CjkTAJFwEey-rrB6TMkHCg" name="m" outgoing="_EMupMJFwEey-rrB6TMkHCg _KlT74JFwEey-rrB6TMkHCg _eAhXYJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_FShzoJFwEey-rrB6TMkHCg" value="false">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_EMupMJFwEey-rrB6TMkHCg" source="_CjkTAJFwEey-rrB6TMkHCg" target="_BnJHAJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/at"/>
+      </edges>
+      <edges xmi:id="_KlT74JFwEey-rrB6TMkHCg" source="_CjkTAJFwEey-rrB6TMkHCg" target="_BJilAJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/from"/>
+      </edges>
+      <edges xmi:id="_eAhXYJFwEey-rrB6TMkHCg" source="_CjkTAJFwEey-rrB6TMkHCg" target="_BnJHAJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/to"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_uNw3gZFvEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_BJjMEJFwEey-rrB6TMkHCg" name="s" incoming="_Pib9MJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_BnJHAZFwEey-rrB6TMkHCg" name="t" incoming="_EMupMZFwEey-rrB6TMkHCg _Yr74UJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_CjkTAZFwEey-rrB6TMkHCg" name="m" outgoing="_EMupMZFwEey-rrB6TMkHCg _Pib9MJFwEey-rrB6TMkHCg _Yr74UJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message"/>
+        <attributes xmi:id="_FShzoZFwEey-rrB6TMkHCg" value="true">
+          <type href="Ack_effective.ecore#//Message/isAck"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_EMupMZFwEey-rrB6TMkHCg" source="_CjkTAZFwEey-rrB6TMkHCg" target="_BnJHAZFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/at"/>
+      </edges>
+      <edges xmi:id="_Pib9MJFwEey-rrB6TMkHCg" source="_CjkTAZFwEey-rrB6TMkHCg" target="_BJjMEJFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/to"/>
+      </edges>
+      <edges xmi:id="_Yr74UJFwEey-rrB6TMkHCg" source="_CjkTAZFwEey-rrB6TMkHCg" target="_BnJHAZFwEey-rrB6TMkHCg">
+        <type href="Ack_effective.ecore#//Message/from"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_BJjMEZFwEey-rrB6TMkHCg" origin="_BJilAJFwEey-rrB6TMkHCg" image="_BJjMEJFwEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_BnJHApFwEey-rrB6TMkHCg" origin="_BnJHAJFwEey-rrB6TMkHCg" image="_BnJHAZFwEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_CjkTApFwEey-rrB6TMkHCg" origin="_CjkTAJFwEey-rrB6TMkHCg" image="_CjkTAZFwEey-rrB6TMkHCg"/>
+  </units>
+</henshin:Module>

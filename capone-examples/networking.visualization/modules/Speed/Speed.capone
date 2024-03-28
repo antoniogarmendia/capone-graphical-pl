@@ -1,0 +1,10 @@
+Module Speed {
+	metamodel 'modules/Speed/Speed.ecore'
+	extends.or RichLink
+	rules 'modules/Speed/Speed.henshin' {
+		move extends RichLink.Richlink_move
+	}
+	diagram 'modules/Speed/Speed.odesign' {
+		override RichLink.style.lineStyle
+	}
+}

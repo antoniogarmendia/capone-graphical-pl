@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_rhCmwMo_EeyzUMA35lmYIA">
+  <imports href="Speed_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_r61m0Mo_EeyzUMA35lmYIA" name="move">
+    <parameters xmi:id="_zuHV4Mo_EeyzUMA35lmYIA" name="s" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <lhs xmi:id="_r654QMo_EeyzUMA35lmYIA" name="Lhs">
+      <nodes xmi:id="_uMQ24Mo_EeyzUMA35lmYIA" name="l">
+        <type href="Speed_effective.ecore#//Link"/>
+        <attributes xmi:id="_xgXE4Mo_EeyzUMA35lmYIA" value="s">
+          <type href="Speed_effective.ecore#//Link/speed"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_r654Qco_EeyzUMA35lmYIA" name="Rhs">
+      <nodes xmi:id="_uMQ24co_EeyzUMA35lmYIA" name="l">
+        <type href="Speed_effective.ecore#//Link"/>
+        <attributes xmi:id="_xgXr8Mo_EeyzUMA35lmYIA" value="s">
+          <type href="Speed_effective.ecore#//Link/speed"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_uMQ24so_EeyzUMA35lmYIA" origin="_uMQ24Mo_EeyzUMA35lmYIA" image="_uMQ24co_EeyzUMA35lmYIA"/>
+  </units>
+</henshin:Module>

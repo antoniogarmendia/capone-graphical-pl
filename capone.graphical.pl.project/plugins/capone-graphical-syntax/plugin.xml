@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension-point id="capone.gs.GraphicalStyleInjector" name="Graphical Style Injector" schema="schema/capone.gs.GraphicalStyleInjector.exsd"/>
+
+	<extension point="org.eclipse.ui.commands">
+		<command defaultHandler="capone.gs.handlers.GraphicalStyleInjectorHandler" id="capone.gs.commands.GSInjector" name="GSInjector">
+			<commandParameter id="gsInjectorCode" name="gsInjectorCode" optional="true" typeId="capone.gs.handlers.typeData"> </commandParameter>
+		</command>
+		<commandParameterType id="capone.gs.handlers.typeData" type="capone.gs.handlers.TypeData"> </commandParameterType>
+	</extension>
+
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution allPopups="false" class="capone.gs.handlers.GraphicalStyleDynamicMenu" locationURI="popup:capone.gs.CaponeMenu"> </menuContribution>
+		<menuContribution locationURI="popup:capone.menus?after=additions">
+			<menu id="capone.gs.CaponeMenu" label="Inject Graphical Style"> </menu>
+			<visibleWhen checkEnabled="false">
+				<iterate>
+						<reference definitionId="capone.isCapone" />
+				</iterate>
+			</visibleWhen>		
+		</menuContribution>
+	</extension>
+</plugin>

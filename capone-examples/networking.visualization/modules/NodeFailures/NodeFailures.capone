@@ -1,0 +1,13 @@
+Module NodeFailures {
+	metamodel 'modules/NodeFailures/NodeFailures.ecore'
+	extends.optional Networking
+	rules 'modules/NodeFailures/NodeFailures.henshin' {
+		move_node1 extends Networking.move,
+		move_node2 extends Networking.move,
+		breakdown, 
+		fix
+	}
+	diagram 'modules/NodeFailures/NodeFailures.odesign' {
+		override Message 
+	}
+}

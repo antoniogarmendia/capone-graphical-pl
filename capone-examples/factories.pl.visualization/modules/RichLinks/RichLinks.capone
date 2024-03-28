@@ -1,0 +1,5 @@
+Module RichLinks {
+	extends.alternative Factories
+	metamodel 'modules/RichLinks/RichLinks.ecore'
+	diagram 'modules/RichLinks/RichLinks.odesign'
+}

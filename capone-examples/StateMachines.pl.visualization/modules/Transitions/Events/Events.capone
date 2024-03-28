@@ -1,0 +1,5 @@
+Module Events {
+	metamodel 'modules/Transitions/Events/Events.ecore'
+	extends.optional Transitions
+	diagram 'modules/Transitions/Events/Events.odesign'
+}

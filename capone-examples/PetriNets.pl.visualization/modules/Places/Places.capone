@@ -1,0 +1,4 @@
+Module Places {
+	metamodel 'modules/Places/Places.ecore'
+	extends.mandatory PetriNets
+}

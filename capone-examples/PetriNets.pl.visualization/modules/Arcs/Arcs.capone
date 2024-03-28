@@ -1,0 +1,4 @@
+Module Arcs {
+	metamodel 'modules/Arcs/Arcs.ecore'
+	extends.mandatory PetriNets
+}

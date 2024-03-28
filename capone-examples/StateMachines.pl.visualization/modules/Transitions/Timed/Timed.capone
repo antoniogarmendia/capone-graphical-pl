@@ -1,0 +1,5 @@
+Module Timed {
+	metamodel 'modules/Transitions/Timed/Timed.ecore'
+	extends.optional Transitions
+	diagram 'modules/Transitions/Timed/Timed.odesign'
+}

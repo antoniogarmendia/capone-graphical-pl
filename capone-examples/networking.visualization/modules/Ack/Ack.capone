@@ -1,0 +1,10 @@
+Module Ack {
+  metamodel 'modules/Ack/Ack.ecore'
+  extends.optional Networking 
+  rules 'modules/Ack/Ack.henshin' {
+	ack_send extends Networking.send,
+	ack_receive extends Networking.receive, 
+	send_ack  
+  }   
+  diagram 'modules/Ack/Ack.odesign'
+}

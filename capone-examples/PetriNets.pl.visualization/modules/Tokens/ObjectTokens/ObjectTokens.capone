@@ -1,0 +1,5 @@
+Module ObjectTokens {
+	metamodel 'modules/Tokens/ObjectTokens/ObjectTokens.ecore'
+	extends.alternative Tokens
+	diagram 'modules/Tokens/ObjectTokens/ObjectTokens.odesign'
+}

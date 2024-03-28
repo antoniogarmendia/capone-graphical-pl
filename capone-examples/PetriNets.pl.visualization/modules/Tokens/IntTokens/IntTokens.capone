@@ -1,0 +1,5 @@
+Module IntTokens {
+	metamodel 'modules/Tokens/IntTokens/IntTokens.ecore'
+	extends.alternative Tokens
+	diagram 'modules/Tokens/IntTokens/IntTokens.odesign'
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="StateMachines">
+			<and mandatory="true" name="States">
+				<graphics key="collapsed" value="false"/>
+				<alt name="Hierarchy">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Parallel"/>
+					<feature name="Sequential"/>
+				</alt>
+				<feature name="StateEvents"/>
+			</and>
+			<and mandatory="true" name="Transitions">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Events"/>
+				<feature name="Timed"/>
+				<alt mandatory="true" name="TransitionsALT">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Immediate"/>
+					<feature name="Triggered"/>
+				</alt>
+			</and>
+		</and>
+	</struct>
+</featureModel>

@@ -1,0 +1,5 @@
+Module Immediate {
+	metamodel 'modules/Transitions/Immediate/Immediate.ecore'
+	extends.alternative Transitions
+	diagram 'modules/Transitions/Immediate/Immediate.odesign'
+}

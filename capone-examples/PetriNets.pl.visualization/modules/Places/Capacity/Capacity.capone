@@ -1,0 +1,5 @@
+Module Capacity {
+	metamodel 'modules/Places/Capacity/Capacity.ecore'
+	extends.optional Places
+	diagram 'modules/Places/Capacity/Capacity.odesign'
+}

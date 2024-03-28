@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="Networking" version="12.0.0.2017041100">
+  <ownedViewpoints name="NetWorkingViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="NetworkingDiagram" domainClass="NetworkingNodeFailures::Network" enablePopupBars="true">
+      <metamodel href="NodeFailures_effective.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="NodeContainer">
+          <subNodeMappings name="Message" semanticCandidatesExpression="aql:diagram.target.messages->select(m | m.at = self)" domainClass="NetworkingPL::Message">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:'Broken: '.concat(self.broken.toString())" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </style>
+          </subNodeMappings>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

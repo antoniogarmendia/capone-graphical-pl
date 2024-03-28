@@ -1,0 +1,5 @@
+Module Read {
+	metamodel 'modules/Arcs/Read/Read.ecore'
+	extends.optional Arcs
+	diagram 'modules/Arcs/Read/Read.odesign'
+}

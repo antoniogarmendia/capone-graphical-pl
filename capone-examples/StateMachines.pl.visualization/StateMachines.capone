@@ -1,0 +1,4 @@
+top Module StateMachines {
+	metamodel 'StateMachines.ecore'
+	diagram 'StateMachines.odesign'
+}

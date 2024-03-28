@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TAW2UMorEeyJBJoQdT-tTg">
+  <imports href="NodeFailures_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_URa1kMorEeyJBJoQdT-tTg" name="move_node1">
+    <lhs xmi:id="_URef8MorEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_YitroMorEeyJBJoQdT-tTg" name="n1">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_Z5dcIMorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_URef8corEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_YitrocorEeyJBJoQdT-tTg" name="n1">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_Z5dcIcorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_YitrosorEeyJBJoQdT-tTg" origin="_YitroMorEeyJBJoQdT-tTg" image="_YitrocorEeyJBJoQdT-tTg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_gtZ1IMorEeyJBJoQdT-tTg" name="move_node2">
+    <lhs xmi:id="_gtdfgMorEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_kMVaIMorEeyJBJoQdT-tTg" name="n2">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_lOGZIMorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_gtdfgcorEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_kMVaIcorEeyJBJoQdT-tTg" name="n2">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_lOHAMMorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_kMVaIsorEeyJBJoQdT-tTg" origin="_kMVaIMorEeyJBJoQdT-tTg" image="_kMVaIcorEeyJBJoQdT-tTg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_oLUYMMorEeyJBJoQdT-tTg" name="breakdown">
+    <lhs xmi:id="_oLXbgMorEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_r-OpIMorEeyJBJoQdT-tTg" name="n">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_tSE2oMorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_oLXbgcorEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_r-OpIcorEeyJBJoQdT-tTg" name="n">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_tSFdsMorEeyJBJoQdT-tTg" value="true">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_r-PQMMorEeyJBJoQdT-tTg" origin="_r-OpIMorEeyJBJoQdT-tTg" image="_r-OpIcorEeyJBJoQdT-tTg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_v4QOsMorEeyJBJoQdT-tTg" name="fix">
+    <lhs xmi:id="_v4TSAMorEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_w0EWsMorEeyJBJoQdT-tTg" name="n">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_xmpDIMorEeyJBJoQdT-tTg" value="true">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_v4TSAcorEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_w0EWscorEeyJBJoQdT-tTg" name="n">
+        <type href="NodeFailures_effective.ecore#//Node"/>
+        <attributes xmi:id="_xmpDIcorEeyJBJoQdT-tTg" value="false">
+          <type href="NodeFailures_effective.ecore#//Node/broken"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_w0EWssorEeyJBJoQdT-tTg" origin="_w0EWsMorEeyJBJoQdT-tTg" image="_w0EWscorEeyJBJoQdT-tTg"/>
+  </units>
+</henshin:Module>

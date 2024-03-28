@@ -1,0 +1,5 @@
+Module Sequential {
+	metamodel 'modules/States/Hierarchy/Sequential/Sequential.ecore'
+	extends.alternative Hierarchy	
+	diagram 'modules/States/Hierarchy/Sequential/Sequential.odesign'
+}

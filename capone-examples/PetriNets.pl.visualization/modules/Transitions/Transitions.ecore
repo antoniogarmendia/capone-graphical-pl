@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="PetriNets_Transitions" nsURI="http://petrinets/transitions"
+    nsPrefix="petrinets">
+  <eClassifiers xsi:type="ecore:EClass" name="Transition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PetriNet"/>
+</ecore:EPackage>

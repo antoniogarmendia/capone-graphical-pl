@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="StateMachines" version="12.0.0.2017041100">
+  <ownedViewpoints name="StateMachinesViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="StateMachinesDiagram" domainClass="StateMachinePL::StateMachine" enablePopupBars="true">
+      <metamodel href="Parallel_effective.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="StateNode" preconditionExpression="aql:self.oclIsTypeOf(StateMachinePL::State)"/>
+        <edgeMappings name="TransitionElementEdge" sourceMapping="//@ownedViewpoints[name='StateMachinesViewpoint']/@ownedRepresentations[name='StateMachinesDiagram']/@defaultLayer/@containerMappings[name='CompositeStateContainer']" targetMapping="//@ownedViewpoints[name='StateMachinesViewpoint']/@ownedRepresentations[name='StateMachinesDiagram']/@defaultLayer/@containerMappings[name='CompositeStateContainer']" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="CompositeStateContainer" semanticCandidatesExpression="feature:states" domainClass="StateMachinePL::CompositeState" childrenPresentation="VerticalStack">
+          <subContainerMappings name="OrthogonalRegionContainer" semanticCandidatesExpression="feature:regions" domainClass="StateMachinePL::OrthogonalRegion" reusedNodeMappings="//@ownedViewpoints[name='StateMachinesViewpoint']/@ownedRepresentations[name='StateMachinesDiagram']/@defaultLayer/@nodeMappings[name='StateNode']">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="2" labelSize="12" showIcon="false" labelExpression="aql:'Region '.concat(self.eContainer().regions->indexOf(self).toString())" roundedCorner="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql:'Composite State '.concat(self.eContainer().states->indexOf(self).toString())" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="StateMachinesSection">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CompositeStateContainer" containerMappings="//@ownedViewpoints[name='StateMachinesViewpoint']/@ownedRepresentations[name='StateMachinesDiagram']/@defaultLayer/@containerMappings[name='CompositeStateContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="StateMachinePL::CompositeState" referenceName="states"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="OrthogonalRegionCreation" containerMappings="//@ownedViewpoints[name='StateMachinesViewpoint']/@ownedRepresentations[name='StateMachinesDiagram']/@defaultLayer/@containerMappings[name='CompositeStateContainer']/@subContainerMappings[name='OrthogonalRegionContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="StateMachinePL::OrthogonalRegion" referenceName="regions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="StateCreation">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="TransitionCreation">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:source.eContainer()">
+                <subModelOperations xsi:type="tool_1:Switch">
+                  <cases conditionExpression="aql:self.oclIsTypeOf(StateMachinePL::StateMachine)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="StateMachinePL::Transition" referenceName="transitions">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="from" valueExpression="var:source"/>
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+                    </subModelOperations>
+                  </cases>
+                  <cases conditionExpression="aql:self.oclIsTypeOf(StateMachinePL::OrthogonalRegion)">
+                    <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer().eContainer()">
+                      <subModelOperations xsi:type="tool_1:CreateInstance" typeName="StateMachinePL::Transition" referenceName="transitions">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="from" valueExpression="var:source"/>
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+                      </subModelOperations>
+                    </subModelOperations>
+                  </cases>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

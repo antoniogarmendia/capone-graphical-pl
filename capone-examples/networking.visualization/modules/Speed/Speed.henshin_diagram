@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_rhDN0Mo_EeyzUMA35lmYIA" type="Henshin" name="Speed.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_r6208Mo_EeyzUMA35lmYIA" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tFs3cMo_EeyzUMA35lmYIA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tFs3cco_EeyzUMA35lmYIA" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_r63cAMo_EeyzUMA35lmYIA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_r63cAco_EeyzUMA35lmYIA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_uMSFAMo_EeyzUMA35lmYIA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uMSsEMo_EeyzUMA35lmYIA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uMSsEco_EeyzUMA35lmYIA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uMSsEso_EeyzUMA35lmYIA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_xgY6EMo_EeyzUMA35lmYIA" type="3002">
+            <element xmi:type="henshin:Attribute" href="Speed.henshin#_xgXE4Mo_EeyzUMA35lmYIA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xgY6Eco_EeyzUMA35lmYIA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uMSsE8o_EeyzUMA35lmYIA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uMSsFMo_EeyzUMA35lmYIA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="Speed.henshin#_uMQ24Mo_EeyzUMA35lmYIA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMSFAco_EeyzUMA35lmYIA" x="72" y="42"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="Speed.henshin#_r61m0Mo_EeyzUMA35lmYIA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6208co_EeyzUMA35lmYIA" x="450" y="170"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rhDN0co_EeyzUMA35lmYIA"/>
+  <element xmi:type="henshin:Module" href="Speed.henshin#_rhCmwMo_EeyzUMA35lmYIA"/>
+</notation:Diagram>

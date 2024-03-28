@@ -1,0 +1,7 @@
+Module LinkSpill {
+	extends.optional RichLinks
+	metamodel 'modules/LinkSpill/LinkSpill.ecore'
+	diagram 'modules/LinkSpill/LinkSpill.odesign' {
+		override RichLink.targetMapping	
+	}
+}

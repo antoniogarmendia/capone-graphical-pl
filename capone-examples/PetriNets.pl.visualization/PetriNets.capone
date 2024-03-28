@@ -1,0 +1,4 @@
+top Module PetriNets {
+	metamodel 'PetriNets.ecore'
+	diagram 'PetriNets.odesign'
+}

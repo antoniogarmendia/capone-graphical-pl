@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="PetriNets" version="12.0.0.2017041100">
+  <ownedViewpoints name="PetriNetsViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="PetriNetsDiagram" domainClass="PetriNetsPL::PetriNet" enablePopupBars="true">
+      <metamodel href="PetriNets.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="PlaceNode" semanticCandidatesExpression="feature:places" domainClass="PetriNetsPL::Place">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql:'P'.concat(self.eContainer().places->indexOf(self).toString())" labelPosition="node" resizeKind="NSEW" shape="dot">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TransitionNode" semanticCandidatesExpression="feature:transitions" domainClass="PetriNetsPL::Transition">
+          <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:'T'.concat(self.eContainer().transitions->indexOf(self).toString())" resizeKind="NSEW" width="2" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <toolSections name="PetriNetsSection">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PlaceCreation" nodeMappings="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='PlaceNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="PetriNetsPL::Place" referenceName="places"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="TransitionCreation" nodeMappings="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='TransitionNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="PetriNetsPL::Transition" referenceName="transitions"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

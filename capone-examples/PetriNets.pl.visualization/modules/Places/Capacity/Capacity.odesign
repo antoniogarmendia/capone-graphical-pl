@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="PetriNets" version="12.0.0.2017041100">
+  <ownedViewpoints name="PetriNetsViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="PetriNetsDiagram" domainClass="PetriNetsPL::PetriNet" enablePopupBars="true">
+      <metamodel href="Capacity_effective.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="PlaceNode">
+          <borderedNodeMappings name="PlaceNodeCapacity" semanticCandidatesExpression="aql:self" domainClass="PetriNetsPL::Place">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:'k='.concat(self.capacity.toString())" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/PetriNets.pl.visualization/icons/transparent.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+        </nodeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

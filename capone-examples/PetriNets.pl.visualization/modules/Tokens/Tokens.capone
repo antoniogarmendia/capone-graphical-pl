@@ -1,0 +1,4 @@
+Module Tokens {
+	metamodel 'modules/Tokens/Tokens.ecore'
+	extends.mandatory PetriNets
+}

@@ -1,0 +1,8 @@
+Module RichLink {
+	metamodel 'modules/RichLink/RichLink.ecore'
+	extends.alternative Networking
+	rules 'modules/RichLink/RichLink.henshin' {
+		Richlink_move extends Networking.move
+	}
+	diagram 'modules/RichLink/RichLink.odesign'
+}

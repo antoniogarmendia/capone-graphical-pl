@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="Factories" version="12.0.0.2017041100">
+  <ownedViewpoints name="FactoriesViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="FactoriesDiagram" domainClass="FactoriesPL::Factory" enablePopupBars="true">
+      <metamodel href="RichLinks_effective.ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="RichLink" sourceMapping="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']" targetMapping="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']" targetFinderExpression="aql:self.to" sourceFinderExpression="aql:self.eContainer()" domainClass="FactoriesPL::Link" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.eContainingFeature().name">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.eContainingFeature().name.equals('inps')">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.eContainingFeature().name">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+        </edgeMappings>
+        <containerMappings name="MachineContainer">
+          <subContainerMappings name="ConveyorHeader">
+            <subContainerMappings name="ConveyorHeaderLabel"/>
+          </subContainerMappings>
+        </containerMappings>
+        <containerMappings name="ConveyorContainer">
+          <subContainerMappings name="MachineHeader">
+            <subContainerMappings name="MachineHeaderLabel"/>
+          </subContainerMappings>
+        </containerMappings>
+        <toolSections name="FactorySection">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateInputRichLink" edgeMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@edgeMappings[name='RichLink']" extraSourceMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']/@subContainerMappings[name='MachineHeader'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']/@subContainerMappings[name='MachineHeader']/@subContainerMappings[name='MachineHeaderLabel'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']" extraTargetMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']/@subContainerMappings[name='ConveyorHeader'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']/@subContainerMappings[name='ConveyorHeader']/@subContainerMappings[name='ConveyorHeaderLabel'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="FactoriesPL::Link" referenceName="inps">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateOutputRichLink" edgeMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@edgeMappings[name='RichLink']" extraSourceMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']/@subContainerMappings[name='MachineHeader'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']/@subContainerMappings[name='MachineHeader']/@subContainerMappings[name='MachineHeaderLabel'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']" extraTargetMappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']/@subContainerMappings[name='ConveyorHeader'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='MachineContainer']/@subContainerMappings[name='ConveyorHeader']/@subContainerMappings[name='ConveyorHeaderLabel'] //@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="FactoriesPL::Link" referenceName="outps">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="to" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

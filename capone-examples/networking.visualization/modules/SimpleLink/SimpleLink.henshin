@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VHelwMopEeyJBJoQdT-tTg">
+  <imports href="SimpleLink_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Wk4-8MopEeyJBJoQdT-tTg" name="move">
+    <lhs xmi:id="_WlPkQMopEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_dcxcwMopEeyJBJoQdT-tTg" name="n1" outgoing="_ffSuIMopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_eJPhMMopEeyJBJoQdT-tTg" name="n2" incoming="_ffSuIMopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_ffSuIMopEeyJBJoQdT-tTg" source="_dcxcwMopEeyJBJoQdT-tTg" target="_eJPhMMopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node/linkedTo"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_WlPkQcopEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_dcyD0MopEeyJBJoQdT-tTg" name="n1" outgoing="_ffSuIcopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_eJPhMcopEeyJBJoQdT-tTg" name="n2" incoming="_ffSuIcopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_ffSuIcopEeyJBJoQdT-tTg" source="_dcyD0MopEeyJBJoQdT-tTg" target="_eJPhMcopEeyJBJoQdT-tTg">
+        <type href="SimpleLink_effective.ecore#//Node/linkedTo"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_dcyD0copEeyJBJoQdT-tTg" origin="_dcxcwMopEeyJBJoQdT-tTg" image="_dcyD0MopEeyJBJoQdT-tTg"/>
+    <mappings xmi:id="_eJPhMsopEeyJBJoQdT-tTg" origin="_eJPhMMopEeyJBJoQdT-tTg" image="_eJPhMcopEeyJBJoQdT-tTg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,7 @@
+top Module Networking {
+	metamodel 'Networking.ecore'
+	rules 'Networking.henshin' {
+		move, send, receive		
+	}
+	diagram 'Networking.odesign' 
+}

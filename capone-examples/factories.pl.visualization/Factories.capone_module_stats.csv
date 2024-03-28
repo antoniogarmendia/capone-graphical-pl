@@ -1,0 +1,11 @@
+Module,Size *.odesign,Size *.ecore
+Breakdown,0,3
+Capacities,10,3
+RichLinks,33,7
+SimpleLink,29,5
+Summary,10,1
+Time,16,5
+Factories,46,10
+ConveyorBreak,7,3
+MachineBreak,7,3
+LinkSpill,33,3

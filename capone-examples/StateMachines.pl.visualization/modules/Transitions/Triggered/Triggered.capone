@@ -1,0 +1,5 @@
+Module Triggered {
+	metamodel 'modules/Transitions/Triggered/Triggered.ecore'
+	extends.alternative Transitions
+	diagram 'modules/Transitions/Triggered/Triggered.odesign'
+}

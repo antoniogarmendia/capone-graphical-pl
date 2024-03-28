@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="de.ovgu.featureide.core.composers">
+      <composer
+            class="capone.composer.CaponeComposer"
+            description="Component-based Language Product Lines based on Graph Transformation"
+            id="capone-featureide.capone"
+            name="Capone"
+            nature="org.eclipse.jdt.core.javanature">
+      </composer>
+   </extension>
+   
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="true"
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <menu
+               icon="icons/capone_tiny.png"
+               id="capone.menus"
+               label="Capone">
+            <command
+                  commandId="capone.commands.generateFeatureModel"
+                  id="capone.menus.generateFeatureModel"
+                  label="Generate Feature Model">
+               <visibleWhen checkEnabled="false">
+                  <iterate>
+                      <reference definitionId="capone.isCapone" />
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generateProducts"
+                  id="capone.menus.generateProducts"
+                  label="Generate Products">
+               <visibleWhen checkEnabled="false">
+                  <iterate>
+                      <reference definitionId="capone.isCapone" />
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generateEffectiveMetamodel"
+                  id="capone.menus.generateEffectiveMetamodel"
+                  label="Generate Effective Metamodel">
+               <visibleWhen checkEnabled="false">
+                  <iterate>
+                      <reference definitionId="capone.isCapone" />
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.evaluation"
+                  id="capone.menus.evaluation"
+                  label="Evaluation">
+               <visibleWhen checkEnabled="false">
+                  <iterate>
+                      <reference definitionId="capone.isCapone" />
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.evaluation-inst"
+                  id="capone.menus.evaluation-inst"
+                  label="Evaluation of Instantiability">
+               <visibleWhen checkEnabled="false">
+                  <iterate>
+                      <reference definitionId="capone.isCapone" />
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.consistencyCheck"
+                  id="capone.menus.consistencyCheck"
+                  label="Check consistency">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.instantiabilityCheck"
+                  id="capone.menus.instantiabilityCheck"
+                  label="Check instantiability">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generate150Metamodel"
+                  id="capone.menus.generate150Metamodel"
+                  label="Generate 150% Metamodel">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.wffCheck"
+                  id="capone.menus.wffCheck"
+                  label="Check well-formedness">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generateEcoreProject"
+                  id="capone.menus.generateEcoreProject"
+                  label="Generate Ecore Project"
+                  style="push">
+               <visibleWhen
+                     checkEnabled="true">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isEcore">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generateViewpointSpecificationProject"
+                  id="capone.menus.generateViewpointSpecificationProject"
+                  label="Generate Viewpoint Specification Project"
+                  style="push">
+               <visibleWhen
+                     checkEnabled="true">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isOdesign">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.generateProduct"
+                  id="capone.menus.generateProduct"
+                  label="Generate Product from Ecore and Viewpoint"
+                  style="push">
+               <visibleWhen
+                     checkEnabled="true">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isFolder">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.analyseConcreteSyntax"
+                  id="capone.menus.analyseConcreteSyntax"
+                  label="Analyse concrete syntax">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="capone.commands.analyseGraphicalConflicts"
+                  id="capone.menus.analyseGraphicalConflicts"
+                  label="Analyse graphical conflicts">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate>
+                     <reference
+                           definitionId="capone.isCapone">
+                     </reference>
+                  </iterate>
+               </visibleWhen>
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   
+   <extension point="org.eclipse.ui.handlers">
+      <handler
+            class="capone.composer.handlers.FeatureModelGeneratorHandler"
+            commandId="capone.commands.generateFeatureModel">
+      </handler>
+      <handler
+            class="capone.composer.handlers.ProductGeneratorHandler"
+            commandId="capone.commands.generateProducts">
+      </handler>
+      <handler
+            class="capone.composer.handlers.GenerateEffectiveMetamodelHandler"
+            commandId="capone.commands.generateEffectiveMetamodel">
+      </handler>
+      <handler
+            class="capone.composer.handlers.EvaluationHandler"
+            commandId="capone.commands.evaluation">
+      </handler>
+      <handler
+            class="capone.composer.handlers.EvaluationInstantiabilityHandler"
+            commandId="capone.commands.evaluation-inst">
+      </handler>
+      <handler
+            class="capone.composer.handlers.ConsistencyCheckHandler"
+            commandId="capone.commands.consistencyCheck">
+      </handler>
+      <handler
+            class="capone.composer.handlers.InstantiabilityCheckHandler"
+            commandId="capone.commands.instantiabilityCheck">
+      </handler>
+      <handler
+            class="capone.composer.handlers.Generate150MetamodelHandler"
+            commandId="capone.commands.generate150Metamodel">
+      </handler>
+      <handler
+            class="capone.composer.handlers.WffCheckHandler"
+            commandId="capone.commands.wffCheck">
+      </handler>
+      <handler
+            class="capone.composer.handlers.GenerateEcoreProjectHandler"
+            commandId="capone.commands.generateEcoreProject">
+      </handler>
+      <handler
+            class="capone.composer.handlers.GenerateViewpointSpecificationProject"
+            commandId="capone.commands.generateViewpointSpecificationProject">
+      </handler>
+      <handler
+            class="capone.composer.handlers.GenerateProduct"
+            commandId="capone.commands.generateProduct">
+      </handler>
+      <handler
+            class="capone.composer.handlers.AnalyseConcreteSyntaxHandler"
+            commandId="capone.commands.analyseConcreteSyntax">
+      </handler>
+      <handler
+            class="capone.composer.handlers.AnalyseGraphicalConflictsHandler"
+            commandId="capone.commands.analyseGraphicalConflicts">
+      </handler>
+   </extension>
+   
+   <extension point="org.eclipse.core.expressions.definitions">
+      <definition id="capone.isCapone">
+      		<adapt type="org.eclipse.core.resources.IResource">
+         		<test property="org.eclipse.core.resources.extension" value="capone" />
+         	</adapt>
+      </definition>
+      <definition
+            id="capone.isEcore">
+         <adapt
+               type="org.eclipse.core.resources.IResource">
+            <test
+                  property="org.eclipse.core.resources.extension"
+                  value="ecore">
+            </test>
+         </adapt>
+      </definition>
+      <definition
+            id="capone.isOdesign">
+         <adapt
+               type="org.eclipse.core.resources.IResource">
+            <test
+                  property="org.eclipse.core.resources.extension"
+                  value="odesign">
+            </test>
+         </adapt>
+      </definition>
+      <definition
+            id="capone.isFolder">
+         <adapt
+               type="org.eclipse.core.resources.IFolder">
+         </adapt>
+      </definition>
+   </extension>
+
+   <extension
+		id="capone.marker.problem.sirius"
+		name="Graphical concrete syntax (Sirius)"
+		point="org.eclipse.core.resources.markers">
+		<super type="org.eclipse.core.resources.problemmarker"/>
+		<persistent value="true"/>
+   </extension>
+
+</plugin>

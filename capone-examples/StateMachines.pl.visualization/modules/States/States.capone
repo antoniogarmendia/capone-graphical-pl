@@ -1,0 +1,4 @@
+Module States {
+	metamodel 'modules/States/States.ecore'
+	extends.mandatory StateMachines	
+} 

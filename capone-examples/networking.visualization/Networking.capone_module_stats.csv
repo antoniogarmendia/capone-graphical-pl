@@ -1,0 +1,9 @@
+Module,Size *.odesign,Size *.ecore
+Ack,9,3
+NodeFailures,7,3
+RichLink,19,7
+SimpleLink,17,3
+TimeStamped,7,4
+Networking,42,9
+CommFailures,7,3
+Speed,7,3

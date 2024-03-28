@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="PetriNets"/>
+	<feature automatic="selected" name="Arcs"/>
+	<feature name="Inhibitor"/>
+	<feature name="Read"/>
+	<feature automatic="selected" name="ArcsALT"/>
+	<feature automatic="unselected" name="Unweighted"/>
+	<feature manual="selected" name="Weighted"/>
+	<feature automatic="selected" name="Places"/>
+	<feature name="Capacity"/>
+	<feature automatic="selected" name="Tokens"/>
+	<feature automatic="unselected" name="IntTokens"/>
+	<feature manual="selected" name="ObjectTokens"/>
+	<feature automatic="selected" name="Transitions"/>
+	<feature name="Delay"/>
+</configuration>

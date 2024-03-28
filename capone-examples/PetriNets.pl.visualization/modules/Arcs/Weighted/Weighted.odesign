@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="PetriNets" version="12.0.0.2017041100">
+  <ownedViewpoints name="PetriNetsViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="PetriNetsDiagram" domainClass="PetriNetsPL::PetriNet" enablePopupBars="true">
+      <metamodel href="Weighted_effective.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="PlaceNode"/>
+        <nodeMappings name="TransitionNode"/>
+        <edgeMappings name="GeneralArcPetriNet" semanticCandidatesExpression="feature:eAllContents" sourceMapping="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='TransitionNode']" targetMapping="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='PlaceNode']" targetFinderExpression="aql:self.target" sourceFinderExpression="aql:self.eContainer()" domainClass="PetriNetsPL::Arc" useDomainElement="true">
+          <style sourceArrow="InputArrow" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:weight">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.eContainingFeature().name.equals('outPlaces')">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:weight">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+        </edgeMappings>
+        <toolSections name="PetriNetsSection">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ArcCreation" edgeMappings="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@edgeMappings[name='GeneralArcPetriNet']" extraSourceMappings="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='PlaceNode']" extraTargetMappings="//@ownedViewpoints[name='PetriNetsViewpoint']/@ownedRepresentations[name='PetriNetsDiagram']/@defaultLayer/@nodeMappings[name='TransitionNode']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Switch">
+                <cases conditionExpression="aql:self.oclIsTypeOf(PetriNetsPL::Place)">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:target">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="PetriNetsPL::Arc" referenceName="inPlaces">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:source"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </cases>
+                <cases conditionExpression="aql:self.oclIsTypeOf(PetriNetsPL::Transition)">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="PetriNetsPL::Arc" referenceName="outPlaces">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </cases>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

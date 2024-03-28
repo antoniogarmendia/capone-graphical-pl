@@ -1,0 +1,5 @@
+Module Parallel {
+	metamodel 'modules/States/Hierarchy/Parallel/Parallel.ecore'
+	extends.alternative Hierarchy
+	diagram 'modules/States/Hierarchy/Parallel/Parallel.odesign'
+}

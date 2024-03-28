@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="PetriNets">
+			<and mandatory="true" name="Arcs">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Inhibitor"/>
+				<feature name="Read"/>
+				<alt mandatory="true" name="ArcsALT">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Unweighted"/>
+					<feature name="Weighted"/>
+				</alt>
+			</and>
+			<and mandatory="true" name="Places">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Capacity"/>
+			</and>
+			<alt mandatory="true" name="Tokens">
+				<graphics key="collapsed" value="false"/>
+				<feature name="IntTokens"/>
+				<feature name="ObjectTokens"/>
+			</alt>
+			<and mandatory="true" name="Transitions">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Delay"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>

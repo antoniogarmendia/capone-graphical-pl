@@ -1,0 +1,11 @@
+Module TimeStamped {	
+	metamodel 'modules/TimeStamped/TimeStamped.ecore'
+	extends.optional Networking
+	//constraints TimeStamped implies Speed
+	rules 'modules/TimeStamped/TimeStamped.henshin' {
+		move extends Networking.move
+	}
+	diagram 'modules/TimeStamped/TimeStamped.odesign' {
+		merge Message.style.labelExpression
+	}
+}

@@ -1,0 +1,5 @@
+Module Delay {
+	metamodel 'modules/Transitions/Delay/Delay.ecore'
+	extends.optional Transitions
+	diagram 'modules/Transitions/Delay/Delay.odesign'
+}

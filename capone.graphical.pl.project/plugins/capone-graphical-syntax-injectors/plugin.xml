@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="capone.gs.GraphicalStyleInjector">
+      <GraphicalStyle
+            name="High contrast"
+            style="capone.gs.injectors.HighContrast">
+      </GraphicalStyle>
+      <GraphicalStyle
+            name="Language translation"
+            style="capone.gs.injectors.LanguageTranslation">
+         <Parameter
+               name="Target language">
+         </Parameter>
+      </GraphicalStyle>
+   </extension>
+
+</plugin>

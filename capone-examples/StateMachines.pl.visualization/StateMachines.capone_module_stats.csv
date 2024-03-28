@@ -1,0 +1,12 @@
+Module,Size *.odesign,Size *.ecore
+States,0,2
+Transitions,0,3
+Hierarchy,0,3
+StateEvents,6,3
+StateMachines,29,10
+Events,7,3
+Immediate,8,3
+Timed,7,5
+Triggered,7,3
+Parallel,44,7
+Sequential,37,4

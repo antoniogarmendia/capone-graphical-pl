@@ -1,0 +1,14 @@
+Module,Size *.odesign,Size *.ecore
+Arcs,0,3
+Places,0,2
+Tokens,0,2
+Transitions,0,3
+Inhibitor,23,4
+Read,23,4
+Unweighted,39,5
+Weighted,28,8
+PetriNets,19,6
+Capacity,7,3
+IntTokens,18,3
+ObjectTokens,24,4
+Delay,7,5

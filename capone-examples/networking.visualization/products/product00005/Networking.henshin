@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin">
+  <imports href="Networking.ecore#/"/>
+  <units xsi:type="henshin:Rule" name="Networking_move">
+    <parameters name="z" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters name="t" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters name="s" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <lhs name="Lhs">
+      <nodes name="n1" incoming="//@units.0/@lhs/@edges.0 //@units.0/@lhs/@edges.1">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="n2" incoming="//@units.0/@lhs/@edges.2">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="m" outgoing="//@units.0/@lhs/@edges.0">
+        <type href="Networking.ecore#//Message"/>
+        <attributes value="z">
+          <type href="../../modules/TimeStamped/TimeStamped_effective.ecore#//Message/size"/>
+        </attributes>
+        <attributes value="t">
+          <type href="../../modules/TimeStamped/TimeStamped_effective.ecore#//Message/timeStamp"/>
+        </attributes>
+      </nodes>
+      <nodes name="l" outgoing="//@units.0/@lhs/@edges.1 //@units.0/@lhs/@edges.2">
+        <type href="Networking.ecore#//Link"/>
+        <attributes value="s">
+          <type href="../../modules/Speed/Speed_effective.ecore#//Link/speed"/>
+        </attributes>
+      </nodes>
+      <edges source="//@units.0/@lhs/@nodes.2" target="//@units.0/@lhs/@nodes.0">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+      <edges source="//@units.0/@lhs/@nodes.3" target="//@units.0/@lhs/@nodes.0">
+        <type href="Networking.ecore#//Link/from"/>
+      </edges>
+      <edges source="//@units.0/@lhs/@nodes.3" target="//@units.0/@lhs/@nodes.1">
+        <type href="Networking.ecore#//Link/to"/>
+      </edges>
+    </lhs>
+    <rhs name="Rhs">
+      <nodes name="n1" incoming="//@units.0/@rhs/@edges.1">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="n2" incoming="//@units.0/@rhs/@edges.0 //@units.0/@rhs/@edges.2">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="m" outgoing="//@units.0/@rhs/@edges.0">
+        <type href="Networking.ecore#//Message"/>
+        <attributes value="z">
+          <type href="../../modules/TimeStamped/TimeStamped_effective.ecore#//Message/size"/>
+        </attributes>
+        <attributes value="t+z/s">
+          <type href="../../modules/TimeStamped/TimeStamped_effective.ecore#//Message/timeStamp"/>
+        </attributes>
+      </nodes>
+      <nodes name="l" outgoing="//@units.0/@rhs/@edges.1 //@units.0/@rhs/@edges.2">
+        <type href="Networking.ecore#//Link"/>
+        <attributes value="s">
+          <type href="../../modules/Speed/Speed_effective.ecore#//Link/speed"/>
+        </attributes>
+      </nodes>
+      <edges source="//@units.0/@rhs/@nodes.2" target="//@units.0/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+      <edges source="//@units.0/@rhs/@nodes.3" target="//@units.0/@rhs/@nodes.0">
+        <type href="Networking.ecore#//Link/from"/>
+      </edges>
+      <edges source="//@units.0/@rhs/@nodes.3" target="//@units.0/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Link/to"/>
+      </edges>
+    </rhs>
+    <mappings origin="//@units.0/@lhs/@nodes.0" image="//@units.0/@rhs/@nodes.0"/>
+    <mappings origin="//@units.0/@lhs/@nodes.1" image="//@units.0/@rhs/@nodes.1"/>
+    <mappings origin="//@units.0/@lhs/@nodes.2" image="//@units.0/@rhs/@nodes.2"/>
+    <mappings origin="//@units.0/@lhs/@nodes.3" image="//@units.0/@rhs/@nodes.3"/>
+  </units>
+  <units xsi:type="henshin:Rule" name="Networking_send">
+    <lhs name="Lhs">
+      <nodes name="n" outgoing="//@units.1/@lhs/@edges.0 //@units.1/@lhs/@edges.1">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes name="s" incoming="//@units.1/@lhs/@edges.0">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="t" incoming="//@units.1/@lhs/@edges.1">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <edges source="//@units.1/@lhs/@nodes.0" target="//@units.1/@lhs/@nodes.1">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.1/@lhs/@nodes.0" target="//@units.1/@lhs/@nodes.2">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+    </lhs>
+    <rhs name="Rhs">
+      <nodes name="n" outgoing="//@units.1/@rhs/@edges.0 //@units.1/@rhs/@edges.1 //@units.1/@rhs/@edges.2">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes name="s" incoming="//@units.1/@rhs/@edges.0 //@units.1/@rhs/@edges.3 //@units.1/@rhs/@edges.5">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="t" incoming="//@units.1/@rhs/@edges.1 //@units.1/@rhs/@edges.4">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="m" incoming="//@units.1/@rhs/@edges.2" outgoing="//@units.1/@rhs/@edges.3 //@units.1/@rhs/@edges.4 //@units.1/@rhs/@edges.5">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges source="//@units.1/@rhs/@nodes.0" target="//@units.1/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.1/@rhs/@nodes.0" target="//@units.1/@rhs/@nodes.2">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.1/@rhs/@nodes.0" target="//@units.1/@rhs/@nodes.3">
+        <type href="Networking.ecore#//Network/messages"/>
+      </edges>
+      <edges source="//@units.1/@rhs/@nodes.3" target="//@units.1/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Message/from"/>
+      </edges>
+      <edges source="//@units.1/@rhs/@nodes.3" target="//@units.1/@rhs/@nodes.2">
+        <type href="Networking.ecore#//Message/to"/>
+      </edges>
+      <edges source="//@units.1/@rhs/@nodes.3" target="//@units.1/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </rhs>
+    <mappings origin="//@units.1/@lhs/@nodes.0" image="//@units.1/@rhs/@nodes.0"/>
+    <mappings origin="//@units.1/@lhs/@nodes.1" image="//@units.1/@rhs/@nodes.1"/>
+    <mappings origin="//@units.1/@lhs/@nodes.2" image="//@units.1/@rhs/@nodes.2"/>
+  </units>
+  <units xsi:type="henshin:Rule" name="Networking_receive">
+    <lhs name="Lhs">
+      <nodes name="n" outgoing="//@units.2/@lhs/@edges.0 //@units.2/@lhs/@edges.1 //@units.2/@lhs/@edges.2">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes name="s" incoming="//@units.2/@lhs/@edges.0 //@units.2/@lhs/@edges.3">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="t" incoming="//@units.2/@lhs/@edges.1 //@units.2/@lhs/@edges.4 //@units.2/@lhs/@edges.5">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="m" incoming="//@units.2/@lhs/@edges.2" outgoing="//@units.2/@lhs/@edges.3 //@units.2/@lhs/@edges.4 //@units.2/@lhs/@edges.5">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges source="//@units.2/@lhs/@nodes.0" target="//@units.2/@lhs/@nodes.1">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.2/@lhs/@nodes.0" target="//@units.2/@lhs/@nodes.2">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.2/@lhs/@nodes.0" target="//@units.2/@lhs/@nodes.3">
+        <type href="Networking.ecore#//Network/messages"/>
+      </edges>
+      <edges source="//@units.2/@lhs/@nodes.3" target="//@units.2/@lhs/@nodes.1">
+        <type href="Networking.ecore#//Message/from"/>
+      </edges>
+      <edges source="//@units.2/@lhs/@nodes.3" target="//@units.2/@lhs/@nodes.2">
+        <type href="Networking.ecore#//Message/to"/>
+      </edges>
+      <edges source="//@units.2/@lhs/@nodes.3" target="//@units.2/@lhs/@nodes.2">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </lhs>
+    <rhs name="Rhs">
+      <nodes name="n" outgoing="//@units.2/@rhs/@edges.0 //@units.2/@rhs/@edges.1">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes name="s" incoming="//@units.2/@rhs/@edges.0">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes name="t" incoming="//@units.2/@rhs/@edges.1">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <edges source="//@units.2/@rhs/@nodes.0" target="//@units.2/@rhs/@nodes.1">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges source="//@units.2/@rhs/@nodes.0" target="//@units.2/@rhs/@nodes.2">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+    </rhs>
+    <mappings origin="//@units.2/@lhs/@nodes.0" image="//@units.2/@rhs/@nodes.0"/>
+    <mappings origin="//@units.2/@lhs/@nodes.1" image="//@units.2/@rhs/@nodes.1"/>
+    <mappings origin="//@units.2/@lhs/@nodes.2" image="//@units.2/@rhs/@nodes.2"/>
+  </units>
+</henshin:Module>

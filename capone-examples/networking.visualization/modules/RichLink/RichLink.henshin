@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_6fXCMMopEeyJBJoQdT-tTg">
+  <imports href="RichLink_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_91yygMopEeyJBJoQdT-tTg" name="Richlink_move">
+    <lhs xmi:id="_912c4MopEeyJBJoQdT-tTg" name="Lhs">
+      <nodes xmi:id="_-omvgMopEeyJBJoQdT-tTg" name="n1" incoming="_BIBYQMoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="__YIvAMopEeyJBJoQdT-tTg" name="n2" incoming="_BemFMMoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_AC3HAMoqEeyJBJoQdT-tTg" name="l" outgoing="_BIBYQMoqEeyJBJoQdT-tTg _BemFMMoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link"/>
+      </nodes>
+      <edges xmi:id="_BIBYQMoqEeyJBJoQdT-tTg" source="_AC3HAMoqEeyJBJoQdT-tTg" target="_-omvgMopEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link/from"/>
+      </edges>
+      <edges xmi:id="_BemFMMoqEeyJBJoQdT-tTg" source="_AC3HAMoqEeyJBJoQdT-tTg" target="__YIvAMopEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link/to"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_912c4copEeyJBJoQdT-tTg" name="Rhs">
+      <nodes xmi:id="_-omvgcopEeyJBJoQdT-tTg" name="n1" incoming="_BIBYQcoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="__YJWEMopEeyJBJoQdT-tTg" name="n2" incoming="_BemFMcoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_AC3uEMoqEeyJBJoQdT-tTg" name="l" outgoing="_BIBYQcoqEeyJBJoQdT-tTg _BemFMcoqEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link"/>
+      </nodes>
+      <edges xmi:id="_BIBYQcoqEeyJBJoQdT-tTg" source="_AC3uEMoqEeyJBJoQdT-tTg" target="_-omvgcopEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link/from"/>
+      </edges>
+      <edges xmi:id="_BemFMcoqEeyJBJoQdT-tTg" source="_AC3uEMoqEeyJBJoQdT-tTg" target="__YJWEMopEeyJBJoQdT-tTg">
+        <type href="RichLink_effective.ecore#//Link/to"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_-omvgsopEeyJBJoQdT-tTg" origin="_-omvgMopEeyJBJoQdT-tTg" image="_-omvgcopEeyJBJoQdT-tTg"/>
+    <mappings xmi:id="__YJWEcopEeyJBJoQdT-tTg" origin="__YIvAMopEeyJBJoQdT-tTg" image="__YJWEMopEeyJBJoQdT-tTg"/>
+    <mappings xmi:id="_AC3uEcoqEeyJBJoQdT-tTg" origin="_AC3HAMoqEeyJBJoQdT-tTg" image="_AC3uEMoqEeyJBJoQdT-tTg"/>
+  </units>
+</henshin:Module>

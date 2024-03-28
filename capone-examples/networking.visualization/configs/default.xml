@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="Networking"/>
+	<feature name="Ack"/>
+	<feature name="NodeFailures"/>
+	<feature name="TimeStamped"/>
+	<feature automatic="selected" name="NetworkingALT"/>
+	<feature automatic="selected" name="RichLink"/>
+	<feature manual="selected" name="CommFailures"/>
+	<feature manual="selected" name="Speed"/>
+	<feature automatic="unselected" name="SimpleLink"/>
+</configuration>

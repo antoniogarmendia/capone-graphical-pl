@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_-JtAcMo-EeyzUMA35lmYIA">
+  <imports href="TimeStamped_effective.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="__8Nf4Mo-EeyzUMA35lmYIA" name="move">
+    <parameters xmi:id="_Z7hhkMo_EeyzUMA35lmYIA" name="z" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters xmi:id="_Z7ivsMo_EeyzUMA35lmYIA" name="t" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <lhs xmi:id="__9RP0Mo-EeyzUMA35lmYIA" name="Lhs">
+      <nodes xmi:id="_KKlYYMo_EeyzUMA35lmYIA" name="m">
+        <type href="TimeStamped_effective.ecore#//Message"/>
+        <attributes xmi:id="_LOGq4Mo_EeyzUMA35lmYIA" value="z">
+          <type href="TimeStamped_effective.ecore#//Message/size"/>
+        </attributes>
+        <attributes xmi:id="_L_Ol0Mo_EeyzUMA35lmYIA" value="t">
+          <type href="TimeStamped_effective.ecore#//Message/timeStamp"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="__9RP0co-EeyzUMA35lmYIA" name="Rhs">
+      <nodes xmi:id="_KKlYYco_EeyzUMA35lmYIA" name="m">
+        <type href="TimeStamped_effective.ecore#//Message"/>
+        <attributes xmi:id="_LOHR8Mo_EeyzUMA35lmYIA" value="z">
+          <type href="TimeStamped_effective.ecore#//Message/size"/>
+        </attributes>
+        <attributes xmi:id="_L_Ol0co_EeyzUMA35lmYIA" value="t+z/s">
+          <type href="TimeStamped_effective.ecore#//Message/timeStamp"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_KKl_cMo_EeyzUMA35lmYIA" origin="_KKlYYMo_EeyzUMA35lmYIA" image="_KKlYYco_EeyzUMA35lmYIA"/>
+  </units>
+</henshin:Module>

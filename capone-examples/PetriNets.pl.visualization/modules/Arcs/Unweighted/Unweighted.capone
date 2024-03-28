@@ -1,0 +1,5 @@
+Module Unweighted {
+	metamodel 'modules/Arcs/Unweighted/Unweighted.ecore'
+	extends.alternative Arcs
+	diagram 'modules/Arcs/Unweighted/Unweighted.odesign'
+}

@@ -1,0 +1,8 @@
+Module CommFailures {
+	metamodel 'modules/CommFailures/CommFailures.ecore'
+	extends.or RichLink
+	rules 'modules/CommFailures/CommFailures.henshin' {
+		CommFailures_move extends RichLink.Richlink_move
+	}
+	diagram 'modules/CommFailures/CommFailures.odesign' 
+}

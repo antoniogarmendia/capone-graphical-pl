@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="FactoriesPL" nsURI="http://factories" nsPrefix="factories">
+  <eClassifiers xsi:type="ecore:EClass" name="Conveyor" eSuperTypes="#//FElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="capacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Factory">
+    <eAnnotations source="presence">
+      <details key="condition" value="Factories"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="machines" upperBound="-1"
+        eType="#//Machine" containment="true">
+      <eAnnotations source="presence">
+        <details key="condition" value="Factories"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conveyors" upperBound="-1"
+        eType="#//Conveyor" containment="true">
+      <eAnnotations source="presence">
+        <details key="condition" value="Factories"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Machine" eSuperTypes="#//FElement">
+    <eAnnotations source="presence">
+      <details key="condition" value="Factories"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FElement" abstract="true">
+    <eAnnotations source="presence">
+      <details key="condition" value="Factories"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parts" upperBound="-1"
+        eType="#//Part" containment="true">
+      <eAnnotations source="presence">
+        <details key="condition" value="Factories"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Part">
+    <eAnnotations source="presence">
+      <details key="condition" value="Factories"/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

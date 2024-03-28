@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_KT_xIJFqEey-rrB6TMkHCg">
+  <imports href="Networking.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_QwFq0JFqEey-rrB6TMkHCg" name="move">
+    <lhs xmi:id="_QxziEJFqEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_RyEsQJFqEey-rrB6TMkHCg" name="n1" incoming="_gIvP0JFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_ScFSkJFqEey-rrB6TMkHCg" name="n2">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_TWS4EJFqEey-rrB6TMkHCg" name="m" outgoing="_gIvP0JFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges xmi:id="_gIvP0JFqEey-rrB6TMkHCg" source="_TWS4EJFqEey-rrB6TMkHCg" target="_RyEsQJFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Qx0JIJFqEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_RyEsQZFqEey-rrB6TMkHCg" name="n1">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_ScFSkZFqEey-rrB6TMkHCg" name="n2" incoming="_ihyx4JFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_TWS4EZFqEey-rrB6TMkHCg" name="m" outgoing="_ihyx4JFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges xmi:id="_ihyx4JFqEey-rrB6TMkHCg" source="_TWS4EZFqEey-rrB6TMkHCg" target="_ScFSkZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_RyF6YJFqEey-rrB6TMkHCg" origin="_RyEsQJFqEey-rrB6TMkHCg" image="_RyEsQZFqEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_ScFSkpFqEey-rrB6TMkHCg" origin="_ScFSkJFqEey-rrB6TMkHCg" image="_ScFSkZFqEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_TWS4EpFqEey-rrB6TMkHCg" origin="_TWS4EJFqEey-rrB6TMkHCg" image="_TWS4EZFqEey-rrB6TMkHCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_5YAUoJFqEey-rrB6TMkHCg" name="send">
+    <lhs xmi:id="_5YHpYJFqEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_79GuoJFqEey-rrB6TMkHCg" name="n" outgoing="_DBsLsJFrEey-rrB6TMkHCg _DyD4sJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes xmi:id="_9z9ikJFqEey-rrB6TMkHCg" name="s" incoming="_DBsLsJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_-O0SkJFqEey-rrB6TMkHCg" name="t" incoming="_DyD4sJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_DBsLsJFrEey-rrB6TMkHCg" source="_79GuoJFqEey-rrB6TMkHCg" target="_9z9ikJFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_DyD4sJFrEey-rrB6TMkHCg" source="_79GuoJFqEey-rrB6TMkHCg" target="_-O0SkJFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_5YIQcJFqEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_79GuoZFqEey-rrB6TMkHCg" name="n" outgoing="_DBsLsZFrEey-rrB6TMkHCg _DyD4sZFrEey-rrB6TMkHCg _HJgVoJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes xmi:id="_9z9ikZFqEey-rrB6TMkHCg" name="s" incoming="_DBsLsZFrEey-rrB6TMkHCg _Mt_48JFrEey-rrB6TMkHCg _SRSiYJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_-O0SkZFqEey-rrB6TMkHCg" name="t" incoming="_DyD4sZFrEey-rrB6TMkHCg _PfhlYJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_-3LTEJFqEey-rrB6TMkHCg" name="m" incoming="_HJgVoJFrEey-rrB6TMkHCg" outgoing="_Mt_48JFrEey-rrB6TMkHCg _PfhlYJFrEey-rrB6TMkHCg _SRSiYJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges xmi:id="_DBsLsZFrEey-rrB6TMkHCg" source="_79GuoZFqEey-rrB6TMkHCg" target="_9z9ikZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_DyD4sZFrEey-rrB6TMkHCg" source="_79GuoZFqEey-rrB6TMkHCg" target="_-O0SkZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_HJgVoJFrEey-rrB6TMkHCg" source="_79GuoZFqEey-rrB6TMkHCg" target="_-3LTEJFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/messages"/>
+      </edges>
+      <edges xmi:id="_Mt_48JFrEey-rrB6TMkHCg" source="_-3LTEJFqEey-rrB6TMkHCg" target="_9z9ikZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/from"/>
+      </edges>
+      <edges xmi:id="_PfhlYJFrEey-rrB6TMkHCg" source="_-3LTEJFqEey-rrB6TMkHCg" target="_-O0SkZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/to"/>
+      </edges>
+      <edges xmi:id="_SRSiYJFrEey-rrB6TMkHCg" source="_-3LTEJFqEey-rrB6TMkHCg" target="_9z9ikZFqEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_79GuopFqEey-rrB6TMkHCg" origin="_79GuoJFqEey-rrB6TMkHCg" image="_79GuoZFqEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_9z9ikpFqEey-rrB6TMkHCg" origin="_9z9ikJFqEey-rrB6TMkHCg" image="_9z9ikZFqEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_-O0SkpFqEey-rrB6TMkHCg" origin="_-O0SkJFqEey-rrB6TMkHCg" image="_-O0SkZFqEey-rrB6TMkHCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_ZcsZIJFrEey-rrB6TMkHCg" name="receive">
+    <lhs xmi:id="_ZcwDgJFrEey-rrB6TMkHCg" name="Lhs">
+      <nodes xmi:id="_gTxlsJFrEey-rrB6TMkHCg" name="n" outgoing="_iTyVoJFrEey-rrB6TMkHCg _ips7QJFrEey-rrB6TMkHCg _yfkAsJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes xmi:id="_hFf9kJFrEey-rrB6TMkHCg" name="s" incoming="_iTyVoJFrEey-rrB6TMkHCg _2K0KcJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_hkGlIJFrEey-rrB6TMkHCg" name="t" incoming="_ips7QJFrEey-rrB6TMkHCg _6ZqJcJFrEey-rrB6TMkHCg _80-8YJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_vHgfwJFrEey-rrB6TMkHCg" name="m" incoming="_yfkAsJFrEey-rrB6TMkHCg" outgoing="_2K0KcJFrEey-rrB6TMkHCg _6ZqJcJFrEey-rrB6TMkHCg _80-8YJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message"/>
+      </nodes>
+      <edges xmi:id="_iTyVoJFrEey-rrB6TMkHCg" source="_gTxlsJFrEey-rrB6TMkHCg" target="_hFf9kJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_ips7QJFrEey-rrB6TMkHCg" source="_gTxlsJFrEey-rrB6TMkHCg" target="_hkGlIJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_yfkAsJFrEey-rrB6TMkHCg" source="_gTxlsJFrEey-rrB6TMkHCg" target="_vHgfwJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/messages"/>
+      </edges>
+      <edges xmi:id="_2K0KcJFrEey-rrB6TMkHCg" source="_vHgfwJFrEey-rrB6TMkHCg" target="_hFf9kJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/from"/>
+      </edges>
+      <edges xmi:id="_6ZqJcJFrEey-rrB6TMkHCg" source="_vHgfwJFrEey-rrB6TMkHCg" target="_hkGlIJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/to"/>
+      </edges>
+      <edges xmi:id="_80-8YJFrEey-rrB6TMkHCg" source="_vHgfwJFrEey-rrB6TMkHCg" target="_hkGlIJFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Message/at"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_ZcwDgZFrEey-rrB6TMkHCg" name="Rhs">
+      <nodes xmi:id="_gTyz0JFrEey-rrB6TMkHCg" name="n" outgoing="_iTyVoZFrEey-rrB6TMkHCg _ips7QZFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network"/>
+      </nodes>
+      <nodes xmi:id="_hFf9kZFrEey-rrB6TMkHCg" name="s" incoming="_iTyVoZFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_hkGlIZFrEey-rrB6TMkHCg" name="t" incoming="_ips7QZFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_iTyVoZFrEey-rrB6TMkHCg" source="_gTyz0JFrEey-rrB6TMkHCg" target="_hFf9kZFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+      <edges xmi:id="_ips7QZFrEey-rrB6TMkHCg" source="_gTyz0JFrEey-rrB6TMkHCg" target="_hkGlIZFrEey-rrB6TMkHCg">
+        <type href="Networking.ecore#//Network/nodes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_gTyz0ZFrEey-rrB6TMkHCg" origin="_gTxlsJFrEey-rrB6TMkHCg" image="_gTyz0JFrEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_hFf9kpFrEey-rrB6TMkHCg" origin="_hFf9kJFrEey-rrB6TMkHCg" image="_hFf9kZFrEey-rrB6TMkHCg"/>
+    <mappings xmi:id="_hkGlIpFrEey-rrB6TMkHCg" origin="_hkGlIJFrEey-rrB6TMkHCg" image="_hkGlIZFrEey-rrB6TMkHCg"/>
+  </units>
+</henshin:Module>

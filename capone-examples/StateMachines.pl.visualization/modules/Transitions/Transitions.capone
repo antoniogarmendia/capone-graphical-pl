@@ -1,0 +1,4 @@
+Module Transitions {	
+	metamodel 'modules/Transitions/Transitions.ecore'
+	extends.mandatory StateMachines	
+}
