@@ -20,7 +20,7 @@ The project that contains the modules of the product line is in [capone-examples
 
 ### Petri nets
 
-The project that contains the modules of the product line is in capone-examples/PetriNets.pl.visualization. The folder generated-graphical-environments/PetriNets contains the example of the product58.
+The project that contains the modules of the product line is in [capone-examples/PetriNets.pl.visualization](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/capone-examples/PetriNets.pl.visualization). The folder [generated-graphical-environments/PetriNets](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/generated-graphical-environments/PetriNets) contains the generated project of the graphical editor of product58.  A model example of produc43 can be found in [product58](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/example-of-models/PetriNets/petrinets.pl.models/product00058.petrinetspl).
 
 <img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/petrinets-product58.png?raw=true" width="600" height="300" alt= "Example of a Petrinet Configuration" />
 
