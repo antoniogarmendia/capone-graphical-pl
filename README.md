@@ -7,7 +7,7 @@ To show the usefulness of our tool we implemented 4 language of families of Netw
 
 ### Networking
 
-The project that contains the modules of the product line is in [capone-examples/networking.visualization](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/capone-examples/networking.visualization). The folder generated-graphical-environments/Networking contains the example of the product5.
+The project that contains the modules of the product line is in [capone-examples/networking.visualization](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/capone-examples/networking.visualization). The folder [generated-graphical-environments/Networking](https://github.com/antoniogarmendia/capone-graphical-pl/tree/main/generated-graphical-environments/Networking) contains the generated graphical editor of product5. Model example of produc5 can be found in [product00005](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/example-of-models/Networking/networking.pl.models/product00005.networkingpl)
 
 <img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/networking-product5.png?raw=true" width="600" height="300" alt= "Example of a Networking Configuration" />
 
