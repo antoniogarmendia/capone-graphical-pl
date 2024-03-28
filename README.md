@@ -19,4 +19,5 @@ The project that contains the modules of the product line is in capone-examples/
 
 ### Factories
 
-The project that contains the modules of the product line is in capone-examples/factories.pl.visualization. 
+The project that contains the modules of the product line is in capone-examples/factories.pl.visualization. The folder generated-graphical-environments/Factories contains the example of the product0.
+
