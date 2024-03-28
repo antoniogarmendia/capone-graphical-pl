@@ -9,7 +9,7 @@ To show the usefulness of our tool we implemented 4 language of families of Netw
 
 The project that contains the modules of the product line is in capone-examples/networking.visualization. The folder generated-graphical-environments/Networking contains the example of the product5.
 
-<img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/networking-product5.png.png?raw=true" width="600" height="300" alt= "Example of a Networking Configuration" />
+<img src="https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/networking-product5.png?raw=true" width="600" height="300" alt= "Example of a Networking Configuration" />
 
 ### Statecharts
 
