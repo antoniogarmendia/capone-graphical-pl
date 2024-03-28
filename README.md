@@ -19,7 +19,7 @@ The project that contains the modules of the product line is in capone-examples/
 
 ### Petri nets
 
-The project that contains the modules of the product line is in capone-examples/PetriNets.pl.visualization. The folder generated-graphical-environments/StateCharts contains the example of the product58.
+The project that contains the modules of the product line is in capone-examples/PetriNets.pl.visualization. The folder generated-graphical-environments/PetriNets contains the example of the product58.
 
 ![Example of a Petrinet Configuration](https://github.com/antoniogarmendia/capone-graphical-pl/blob/main/images/petrinets-product58.png?raw=true)
 
