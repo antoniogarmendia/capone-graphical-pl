@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Factories -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="product00000.mm.FactoriesPL.presentation.FactoriesPLModelWizardID"
+            name="%_UI_FactoriesPLModelWizard_label"
+            class="product00000.mm.FactoriesPL.presentation.FactoriesPLModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FactoriesPLModelFile.gif">
+         <description>%_UI_FactoriesPLModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Factories -->
+      <editor
+            id="product00000.mm.FactoriesPL.presentation.FactoriesPLEditorID"
+            name="%_UI_FactoriesPLEditor_label"
+            icon="icons/full/obj16/FactoriesPLModelFile.gif"
+            extensions="factoriespl"
+            class="product00000.mm.FactoriesPL.presentation.FactoriesPLEditor"
+            contributorClass="product00000.mm.FactoriesPL.presentation.FactoriesPLActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

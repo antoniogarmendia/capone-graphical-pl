@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Factories -->
+      <package
+            uri="http://factories/product00000"
+            class="product00000.mm.FactoriesPL.FactoriesPLPackage"
+            genModel="model/Factories.genModel"/>
+   </extension>
+
+</plugin>

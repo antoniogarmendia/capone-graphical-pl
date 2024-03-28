@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="product00000.design.Activator"
+               id="product00000.design"
+	       name="Factories">
+    </component>
+  </extension>
+</plugin>
