@@ -1,0 +1,5 @@
+Module Capacities {
+	extends.optional Factories
+	metamodel 'modules/Capacities/Capacities.ecore'
+	diagram 'modules/Capacities/Capacities.odesign'
+}

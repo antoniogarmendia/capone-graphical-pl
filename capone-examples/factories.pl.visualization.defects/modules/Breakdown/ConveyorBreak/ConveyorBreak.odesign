@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" name="Factories" version="12.0.0.2017041100">
+  <ownedViewpoints name="FactoriesViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="FactoriesDiagram" domainClass="FactoriesPL::Factory" enablePopupBars="true">
+      <metamodel href="ConveyorBreak.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="ConveyorContainer"/>
+        <decorationDescriptionsSet>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="ConveyorContainerDecorator" position="NORTH_EAST" preconditionExpression="aql:self.broken" imageExpression="/factories.pl.visualization/icons/cancel.png" mappings="//@ownedViewpoints[name='FactoriesViewpoint']/@ownedRepresentations[name='FactoriesDiagram']/@defaultLayer/@containerMappings[name='ConveyorContainer']"/>
+        </decorationDescriptionsSet>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

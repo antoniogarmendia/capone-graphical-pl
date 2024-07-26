@@ -1,0 +1,7 @@
+Module Summary {
+	extends.optional Factories
+	metamodel 'modules/Summary/Summary.ecore'
+	diagram 'modules/Summary/Summary.odesign' {
+		override MachineParts, ConveyorParts
+	}
+}

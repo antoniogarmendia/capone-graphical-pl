@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Export-Package: capone.composer,
  capone.composer.helper
 Automatic-Module-Name: capone.featureide
-Bundle-RequiredExecutionEnvironment: JavaSE-16
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
  capone.xtext;bundle-version="1.0.0",

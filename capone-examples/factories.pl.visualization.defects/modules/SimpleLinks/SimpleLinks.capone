@@ -1,0 +1,5 @@
+Module SimpleLink {
+	extends.alternative Factories
+	metamodel 'modules/SimpleLinks/SimpleLinks.ecore'
+	diagram 'modules/SimpleLinks/SimpleLinks.odesign'
+}

@@ -1,0 +1,5 @@
+Module MachineBreak {
+	extends.or Breakdown
+	metamodel 'modules/Breakdown/MachineBreak/MachineBreak.ecore'
+	diagram 'modules/Breakdown/MachineBreak/MachineBreak.odesign'	
+}

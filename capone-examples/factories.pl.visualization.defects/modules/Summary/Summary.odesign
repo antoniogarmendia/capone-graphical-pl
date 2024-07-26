@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="Factories" version="12.0.0.2017041100">
+  <ownedViewpoints name="FactoriesViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="FactoriesDiagram" domainClass="FactoriesPL::Factory" enablePopupBars="true">
+      <metamodel href="Summary.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="MachineContainer">
+          <subContainerMappings name="MachineParts" semanticCandidatesExpression="aql:self" domainClass="FactoriesPL::Machine" childrenPresentation="HorizontalStack">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql:self.parts->size().toString().concat(if (self.parts->size()=1)) then ' part' else ' parts' endif)">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+        </containerMappings>
+        <containerMappings name="ConveyorContainer">
+          <subContainerMappings name="ConveyorParts" semanticCandidatesExpression="aql:self" domainClass="FactoriesPL::Conveyor" childrenPresentation="HorizontalStack">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql:self.parts->size().toString().concat(if (self.parts->size()=1)) then ' part' else ' parts' endif)">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

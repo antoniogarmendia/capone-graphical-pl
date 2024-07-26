@@ -1,0 +1,7 @@
+Module Time {
+	extends.optional Factories
+	metamodel 'modules/Time/Time.ecore'
+	diagram 'modules/Time/Time.odesign' {
+		merge PartContainerConveyor.style.labelExpression
+	}
+}

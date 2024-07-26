@@ -1,0 +1,4 @@
+top Module Factories {
+	metamodel 'Factories.ecore'
+	diagram 'Factories.odesign' 
+}

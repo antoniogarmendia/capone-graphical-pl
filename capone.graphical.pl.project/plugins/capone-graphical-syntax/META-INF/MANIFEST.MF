@@ -26,4 +26,4 @@ Require-Bundle: org.eclipse.core.commands,
  capone-featureide;bundle-version="1.0.0",
  capone.xtext;bundle-version="1.0.0"
 Automatic-Module-Name: capone.graphical.syntax
-Bundle-RequiredExecutionEnvironment: JavaSE-18
+Bundle-RequiredExecutionEnvironment: JavaSE-17

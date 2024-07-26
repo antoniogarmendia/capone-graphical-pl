@@ -1,0 +1,4 @@
+Module Breakdown {
+	extends.optional Factories
+	metamodel 'modules/Breakdown/Breakdown.ecore'		
+}
