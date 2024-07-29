@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-	<feature name="factoriesplvisualizationdefects"/>
-	<feature name="Base"/>
+	<feature automatic="selected" name="Factories"/>
+	<feature name="Breakdown"/>
+	<feature name="ConveyorBreak"/>
+	<feature name="MachineBreak"/>
+	<feature name="Capacities"/>
+	<feature manual="selected" name="Defects"/>
+	<feature manual="selected" name="MachineDefects"/>
+	<feature name="Summary"/>
+	<feature name="Time"/>
+	<feature automatic="selected" name="FactoriesALT"/>
+	<feature automatic="selected" manual="selected" name="RichLinks"/>
+	<feature manual="selected" name="LinkSpill"/>
+	<feature automatic="unselected" name="SimpleLink"/>
 </configuration>
