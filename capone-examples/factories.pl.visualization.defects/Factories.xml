@@ -18,6 +18,7 @@
 			</or>
 			<feature name="Capacities"/>
 			<feature name="Defects"/>
+			<feature name="MachineDefects"/>
 			<feature name="Summary"/>
 			<feature name="Time"/>
 			<alt mandatory="true" name="FactoriesALT">

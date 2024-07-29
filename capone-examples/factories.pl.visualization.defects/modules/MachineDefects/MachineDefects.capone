@@ -1,0 +1,5 @@
+Module MachineDefects {
+	extends.optional Factories
+	metamodel 'modules/MachineDefects/MachineDefects.ecore'
+	diagram 'modules/MachineDefects/MachineDefects.odesign'
+}
